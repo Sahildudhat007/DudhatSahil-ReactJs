@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 </head>
 <body>
     <form>
         <h1>Sign up</h1>                 
         <label for=""><b>Name:</b></label><br>
-        <select name="" id="">
+        <span style="border: 1px solid black; padding: 1px;"><input id="name" type="text" placeholder="Full Name" style="border: none; outline: none;"><label for="name"><i class="fa-solid fa-caret-down" style="padding-right: 1px;"></i></label></span>
+       <!-- <select name="" id="">
             <option value="full name">Full Name</option>
-        </select><br><br>
+        </select> --><br><br>
         <label>email:</label><br>
         <input type="email" placeholder="email id"><br><br>
-        <label>Password:</label>
+        <label>Password:</label><br>
         <input type="password" placeholder="8 characters"><br><br>
-        <label>Confirm Password:</label>
+        <label>Confirm Password:</label><br>
         <input type="password" placeholder="8 characters"><br><br>
-        <label>Date Of Birth:</label>
+        <label>Date Of Birth:</label><br>
         <input type="date"><br><br>
         <label for="">Gender : </label><br>
         <input type="radio" name="Gender">Male
         <input type="radio" name="Gender">Female
         <input type="radio" name="Other">Other<br><br>
-        <label>Insert your photo:</label>
+        <label>Insert your photo:</label><br>
         <input type="file"><br><br>
-        <label>Insert your resume:</label>
+        <label>Insert your resume:</label><br>
         <input type="file"><br><br>
-        <label>Security Question:</label>
-        <textarea name=""></textarea><br><br>
+        <label>Security Question:</label><br>
+        <select name="" id="" style="width:169px; background-color: lightgray;">
+            <option value="">select</option>
+        </select><br>
+        <textarea></textarea><br><br>
         <input type="checkbox">
         <label for="">I agree terms and conditio</label><br>
         <input type="button" value="Register">
