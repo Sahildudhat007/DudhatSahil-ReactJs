@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+
+/* accent-color*/
+
+/* input[class="maincheck"]{
+    accent-color: brown;
+} */
+
+/* 
+    :disabled
+    :enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+
+
+/* ::marker{
+    color:red
+} */
+
+/* ::placeholder{
+    color:red
+} */
+
+
+/* input:focus{
+    background-color: green;
+}
+
+input:hover{
+    background-color: blueviolet;
+} */
+
+/* input:invalid{
+    background-color: red;
+}
+input:valid{
+    background-color: green;
+} */
+
+
+
+
+
+/*
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+*/
+
+
+
+/* css pseudo class */
+
+/*
+
+    :first-child
+    :first-of-type
+    :last-child
+    :last-of-type
+    :nth-child()
+    :nth-last-child()
+    :nth-last-of-type()
+    :nth-of-type()
+    :only-of-type
+    :only-child
+    :odd(3n)
+    :even(2n)
+    :not()
+    :where
+    :target
+    :empty
+
+*/
+
+
+
+/* attributes selector */
+
+/*
+    [attr]
+    [attr=value]
+    [attr~=value]
+    [attr|=value]
+    [attr^=value]
+    [attr$=value]
+    [attr*=value]
+
+*/
+
+
+/* css pseudo element */
+
+/*
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+*/
+
+
+/* css after and before */
+
+/* .box a::after{
+    content: " ";
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+} */
+
+/* p::selection{
+    color:green;
+    background-color: red;
+    text-decoration: underline;
+} */
+

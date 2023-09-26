@@ -1,0 +1,58 @@
+/* Css apply External Method */
+
+
+
+/***************************************/
+
+        /* css comment */
+
+/***************************************/
+
+
+/* CASCADE SPECIFICITY AND INHERITANCE */
+
+
+/* Cascade */
+
+
+
+
+
+/* Sepecificity */
+
+
+
+
+
+/* Inheritance */
+.mainbox  .box-1  .para{
+    background-color: red;
+}
+.mainbox .box-1 .para{
+    background-color: aqua;
+}
+
+.box-1 .para{
+    background-color: brown;
+}
+.para{
+    background-color: green;
+}
+
+p{
+    color:red;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+/* !important Rule */
+
+.mainpara{
+    text-decoration: overline !important;
+}
+
