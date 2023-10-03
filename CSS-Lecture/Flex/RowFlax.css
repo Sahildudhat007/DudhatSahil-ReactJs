@@ -1,0 +1,256 @@
+
+.conteinor{
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: grey;
+}
+
+.box1{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: start;
+}
+.box-demo1{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+.box-demo2{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00eaff;
+}
+.box-demo3{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+
+.box2{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: end;
+}
+.box-demo4{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+.box-demo5{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00eaff;
+}
+.box-demo6{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+
+.box3{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+}
+.box-demo7{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+.box-demo8{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00eaff;
+}
+.box-demo9{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+
+.box4{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+.box-demo10{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+.box-demo11{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00eaff;
+}
+.box-demo12{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+
+.box5{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+}
+.box-demo13{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+.box-demo14{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00eaff;
+}
+.box-demo15{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+
+.box6{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+}
+.box-demo16{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+.box-demo17{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00eaff;
+}
+.box-demo18{
+    width: 400px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+
+.box7{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+}
+.box-demo19{
+    width: 400px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+.box-demo20{
+    width: 400px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00eaff;
+}
+.box-demo21{
+    width: 400px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+
+.box8{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+.box-demo22{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
+.box-demo23{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00eaff;
+}
+.box-demo24{
+    width: 200px;
+    height: 30px;
+    margin: auto 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #00ffa2;
+}
