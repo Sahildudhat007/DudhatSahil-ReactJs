@@ -1,0 +1,117 @@
+
+.relative{
+    position: relative;
+    /* height: 800px; */
+    /* background-color: grey; */
+}
+.absolute-1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 10;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: skyblue;
+}
+.absolute-2{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: 100px;
+        z-index: 1;
+        background-color: khaki;
+}
+
+.absolute-3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 200px;
+    z-index: 1;
+    background-color: blue;
+}
+.absolute-4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 300px;
+    z-index: 1;
+    background-color: red;
+}
+.absolute-5{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 400px;
+    z-index: 1;
+    background-color: darkcyan;
+}
+.absolute-6{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 500px;
+    z-index: 1;
+    background-color: purple;
+}
+.absolute-7{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 600px;
+    z-index: 1;
+    background-color: peru;
+}
+.absolute-8{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 700px;
+    z-index: 1;
+    background-color: green;
+}
+.absolute-9{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 800px;
+    z-index: 1;
+    background-color: greenyellow;
+}
+.absolute-10{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 900px;
+    z-index: 1;
+    background-color: powderblue;
+}

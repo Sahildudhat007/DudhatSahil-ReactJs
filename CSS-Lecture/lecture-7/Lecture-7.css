@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+/*
+    CSS TRANSFORM PROPERTIES
+    CSS TARNSITION PROPERTIES
+    CSS FILTER PROPERTIES
+    CSS ANIMATIONS
+*/
+
+/* Css 2D Transform - Examples */
+
+.translate{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 200px;
+    font-size: 20px;
+    color:white;
+    transition: 5s;
+}
+
+.translate:hover{
+    /* transform: translatex(100px); */
+    transform: scale(2);
+    /* transform: rotate(180deg); */
+    /* transform: skew(45deg , 180deg); */
+    transition: 2s;
+}
+
+
+
+/* Css 3D Transform - Examples */
+
+.cover{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    margin:200px 300px;
+}
+.cover:hover .content{
+    /* transform: perspective(600px) rotate3d(240 , 240 , 240 , 241deg); */
+    transform: rotate(360deg);
+    transition: 5s;
+}
+.content{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+}
+
+
+/* Css Transition - Examples */
+
+.main-box{
+    padding:10px 0px;
+    border:1px solid forestgreen;
+    margin: 20px;
+    width: 95%;
+}
+
+.transition{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    background-color: red;
+}
+.transition:hover{
+    transform: translate(1100px);
+    transition-duration:1s;
+    transition-timing-function:linear;
+    transition: 10s 1s linear;
+}
+
+/* Css Filter */
+
+    /* filter:blur(1px); */
+    /* filter:brightness(50%); */
+    /* filter:contrast(100%); */
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(360deg); */
+    /* filter:invert(0%); */
+    /* filter:saturate(0%); */
+    /* filter:opacity(1); */
+    /* filter: sepia(1); */
+    /* filter:none; */
+    /* filter:drop-shadow(10px -20px 1px rgb(70, 15, 62)); */
+
+
+    /* Css Filter - Exampels */
+
+    .filter img{
+    filter: drop-shadow(15px 15px 10px red);
+}
+
+
+
+
