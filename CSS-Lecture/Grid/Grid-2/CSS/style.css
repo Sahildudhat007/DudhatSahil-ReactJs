@@ -1,0 +1,85 @@
+.grid-item{
+    height: 550px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 100px 100px;
+    border: 2px solid black;
+    margin: auto;
+    color: white;
+}
+.grid-1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgba(14, 13, 13, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;   
+}
+.grid-2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgba(22, 155, 237, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+}
+.grid-3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgba(11, 243, 204, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+}
+.grid-4{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgba(14, 13, 13, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-5{
+    background-color: rgba(96, 116, 160, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 8;
+}
+.grid-6{
+    background-color: rgba(14, 13, 13, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.grid-7{
+    background-color: rgba(96, 116, 160, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 8;
+}
+.grid-8{
+    background-color: rgba(22, 155, 237, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;   
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+.grid-9{
+    background-color: rgba(11, 243, 204, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
