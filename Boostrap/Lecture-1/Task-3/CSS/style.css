@@ -1,0 +1,27 @@
+*{
+    font-size: 18px;
+    color: gray;
+}
+body{
+    background-color: rgb(215, 215, 215);
+}
+.container{
+    width: 96%;
+    padding: 0;
+}
+.row{
+    justify-content:space-between;
+    margin: 30px 0;
+}
+.col-md-1{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid gray;
+}
+.col-md-8, .col-md-4, .col, .col-xs-6, .col-md-6{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid gray;
+}
