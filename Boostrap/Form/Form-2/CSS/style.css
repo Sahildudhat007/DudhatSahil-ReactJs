@@ -1,0 +1,11 @@
+body{
+    /* background-color: blue; */
+    font-family:  'Roboto', sans-serif;
+}
+
+.row .img-brain{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    left: -18px;
+}
