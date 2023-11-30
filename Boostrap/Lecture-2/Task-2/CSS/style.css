@@ -1,0 +1,24 @@
+.navbar{
+    background-color: rgb(34, 30, 30);
+}
+.navbar span{
+    color: white;
+}
+.text{
+    color: rgb(76, 76, 76);
+    /* max-width: 580px; */
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.jumbotron .container a{
+    align-items: center;
+}
+.container .float-right a{
+    float: right;
+}
+
+.container a{
+    text-decoration: none;
+}

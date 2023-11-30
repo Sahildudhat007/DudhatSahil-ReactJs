@@ -1,0 +1,18 @@
+.navbar{
+    background-color: black;
+}
+
+.example{
+    background-color: rgb(122, 120, 120);
+    position: relative;
+    top: -50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.color{
+    color: blue;
+}
+

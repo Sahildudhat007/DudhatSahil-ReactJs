@@ -1,0 +1,9 @@
+.container a{
+    text-decoration: none;
+}
+.container{
+    min-width: 960px;
+}
+.card{
+    min-width: 220px;
+}
