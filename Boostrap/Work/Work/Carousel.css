@@ -1,0 +1,69 @@
+/* Common CSS */
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.brd-name{
+    color: white;
+}
+.nav-items a{
+    color: rgba(255,255,255,.55);
+}
+.slider-h1, .slider-p{
+    color: rgba(255, 255, 255, 0.8);
+}
+.material-symbols-outlined{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 42px;
+}
+.slider-bar .material-symbols-outlined{
+    color: rgba(255, 255, 255, 0.8);
+}
+.set{
+    position: relative;
+    width: 100%;
+    height: 32rem;
+    background-color: #5a5a5a;
+}
+.set-tb{
+    position: absolute;
+    top: 200px;
+}
+.slider-bar{
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.marketing{
+    color: #5a5a5a;
+}
+.round{
+    height: 150px;
+    width: 150px;
+    background-color: #868686;
+    border-radius: 100%;
+}
+.disc-deta h2{
+    font-weight: 400!important;
+    font-size: 50px!important;
+    margin-top: 7rem!important;
+    color: #5a5a5a!important;
+}
+.text-muted{
+    color: #6c757d!important;
+}
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #5a5a5a;
+}
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+footer a{
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.nav-btn a{
+    text-decoration: none;
+    color: #000000;
+}
+.active{
+    font-weight: 700;
+}
+.display-4{
+    font-weight: 500;
+}
+.fw-bold{
+    color: #000000;
+}
+.txt{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.bg-dark{
+    color: white;
+}
+.bg-dark a{
+    color: white;
+    text-decoration: none;
+}
+.col-auto .rounded{
+    border-bottom-left-radius: 0!important;
+    border-top-left-radius: 0!important;
+}
+.card-btn{
+    text-decoration: none;
+}
+.card-btn span{
+    vertical-align: middle;
+}
+.display-5{
+    font-weight: 500;
+}
+.disc a{
+    text-decoration: none;
+}

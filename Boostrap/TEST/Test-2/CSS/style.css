@@ -1,0 +1,29 @@
+.card{
+    border-radius: 40px;
+    background-color: white;
+}
+.main-img{
+    height: 250px;
+    width: 250px;
+}
+.btn{
+    background-color: #cfe2ff;
+    color: blue;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+p{
+    font-size: 21px;
+    font-weight: 500px;
+}
+.card-heading{
+    font-weight: 400;
+}
+.btn1{
+    border: none;
+    font-size: 15px;
+}
+.overlay{
+    background-color: black;
+}

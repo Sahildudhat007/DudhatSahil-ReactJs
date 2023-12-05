@@ -1,0 +1,36 @@
+/* @media (1250px<width) {
+    body{
+        background-color: aqua;
+    }
+} */
+ @media (max-width:1500px) {
+    body{
+        background-color: aqua;
+    }
+} 
+
+@media (max-width:1250px){
+    body{
+        background-color: red;
+    }
+}
+@media (max-width:800px){
+    body{
+        background-color: orange;
+    }
+}
+@media (max-width:500px){
+    body{
+        background-color: green;
+    }
+}
+/* @media (orientation:landscape){
+    body{
+        background-color: yellow;
+    }
+} */
+/* @media (orientation:portrait){
+    body{
+        background-color: blue;
+    }
+} */
