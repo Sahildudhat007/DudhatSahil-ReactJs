@@ -2,9 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 body{
     box-sizing: border-box;
+    color: #919090;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
 }
 /* headre start */
 .header{
@@ -221,7 +227,6 @@ padding-right: 15px;
 position: relative;
 /* text-size-adjust: 100%; */
 /* width: 292.5px; */
-/* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
 }
 .job-listing-box
 .job-listing-box2
@@ -272,31 +277,23 @@ padding-right: 5px;
 padding-top: 5px;
 position: relative;
 width: 266.5px;
-/* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
-
+}
+.name{
+    color: rgba(27, 26, 26, 0.772);
 }
 .job-listing-footer{
-    /* background-image: none; */
+    
 background-origin: padding-box;
-/* background-position-x: 0%;
-background-position-y: 0%; */
-/* background-repeat-x: repeat;
-background-repeat-y: repeat; */
-/* background-size: auto; */
 border-bottom-left-radius: 4px;
 border-bottom-right-radius: 4px;
 border-top-color: rgb(179, 176, 176);
-/* border-top-left-radius: 0px;
-border-top-right-radius: 0px; */
 border-top-style: groove;
 border-top-width: 1px;
 box-sizing: border-box;
-/* color: rgb(145, 144, 144); */
 display: block;
 font-family: "Open Sans", sans-serif;
 font-size: 13px;
 font-weight: 300;
-/* height: 150px; */
 line-height: 24px;
 margin-bottom: -4px;
 margin-left: -4px;
@@ -307,5 +304,87 @@ padding-left: 30px;
 padding-right: 30px;
 padding-top: 20px;
 width: 258.5px;
-/* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+}
+.spacer-xl{
+    height: 60px;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    box-shadow: none;
+    /* margin: 0 -15px; */
+}
+.col-md-4{
+    padding: 0 10px;
+}
+.row .col-md-4 h2{
+    font-size: 24px;
+    font-family: 'Kavoon', cursive;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0 0 1em 0;
+    color: #70b3d0;
+}
+.lead{
+    font-size: 1.1em;
+    color: #444444;
+}
+p{
+    margin: 0 0 1.5em 0;
+}
+.btn{
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    font-weight: normal;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.btn-primary{
+    background: #fc8a58;
+    border-color: transparent;
+    color: #fff;
+    transition: 0.2s;
+    box-shadow: none;
+    margin-top: 10px;
+}
+.list{
+    line-height: 35.5px;
+    margin-bottom: 10px;
+}
+.latest-posts-list {
+    padding-left: 0;
+    list-style: none;
+}
+ul{
+    margin-bottom: 10px;
+}
+.thumbnail {
+    padding: 4px;
+    background-color: #fff;
+    /* border: 1px solid #f2f2f2; */
+    /* border-radius: 6px; */
+   
+}
+.latest-posts-list .date {
+    display: flex;
+    color: #b4b8be;
+    font-size: 12px;
+    font-style: italic;
+}
+.latest-posts-list .title {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    color: #fc8a58;
+}
+.latest-posts-list .date .title{
+    display: flex;
 }
