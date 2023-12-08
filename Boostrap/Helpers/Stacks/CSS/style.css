@@ -1,0 +1,15 @@
+.vstack{
+    background-color: rgb(111, 0, 255);
+}
+.p-2{
+    background-color: rgb(127, 174, 255);
+}
+
+.hstack{
+    margin-top: 20px;
+}
+
+.gap-2{
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
