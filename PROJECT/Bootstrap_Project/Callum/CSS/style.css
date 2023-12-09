@@ -10,6 +10,9 @@ body{
 header{
     display: block;
 }
+.bg-warning{
+    background-color: #f5df4e!important;
+}
 .navbar-overlay .navbar-collapse.show {
     opacity: 1!important;
     visibility: visible;
@@ -55,9 +58,6 @@ header{
     z-index: 999;
 }
 
-.bg-primary{
-    background-color: #f5df4e !important;
-}
 .text-21{
     font-size: 90px;
 }
@@ -160,6 +160,10 @@ header{
     min-height: 60px;
     min-width: 60px;
     font-weight: 500;
+}
+.text-7{
+    position: relative;
+    left: 80px;
 }
 /* .portfolio .portfolio-box{
     position: relative;
