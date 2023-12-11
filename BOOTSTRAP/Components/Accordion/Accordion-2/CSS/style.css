@@ -1,0 +1,57 @@
+/* .accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+} */
+
+.accordion-header{
+    --bs-accordion-active-bg: rgb(110, 0, 253);
+    --bs-accordion-active-color: #fff;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button{
+    background-color: rgb(110, 0, 253);
+    color: #fff;
+    border-radius: 0
+}   
+
+.accordion-item .accordion-button::after
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    background-image:url(icons/plus-svgrepo-com\ -white.svg);
+    margin: auto;
+    margin-left: 10px;
+    width: 26px !important;
+    height: 26px !important;
+    background-size: cover;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image:url(icons/dash-svgrepo-com\ -white.svg);
+    background-position: center;
+    background-size:18px;  
+} 
+
+.rounded-pill{
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.accordion-collapse{
+    display: inline-block;
+}
+
+.accordion-body{
+    display: flex;
+}
+
+.accordion-body .text h4 p{
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,32 @@
+.accordion-item{
+    border-radius: 50px 50px 50px 50px !important;
+    overflow: hidden;
+    border: none;
+}
+
+.accordion-header{
+    --bs-accordion-active-bg: rgb(144, 23, 180);
+    --bs-accordion-active-color: #fff;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button{
+    background-color: rgb(144, 23, 180);
+    color: #fff;
+    border-radius: 0
+} 
+
+.accordion-item .accordion-button::after{
+    color: #fff;
+}
+
+/* .accordion-item .accordion-button::after
+{
+    background-image: url(icons/arrow-up-svgrepo-com.svg);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-right: 24px;
+} */
+

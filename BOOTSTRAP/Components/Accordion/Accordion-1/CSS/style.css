@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(255, 78, 81, 0.861);
+}
+
+.accordion-item{
+    margin: 8px auto;
+}
+
+.accordion-header .accordion-button{
+    position: relative;
+    padding-left: 30px;
+    color: rgb(114, 114, 114) !important;
+    box-shadow: none !important;
+    background-color: rgba(255, 253, 251, 0.95);
+}
+
+.accordion-header .accordion-button::after{
+    background-color: white;
+    width: 39px;
+    height: 39px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: -18px;
+    bottom: 0;
+    margin: auto;
+    background-image: url(icons/plus-svgrepo-com\ -\ gray.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.accordion-header .accordion-button:not(.collapsed)::after{
+    background-image:url(icons/dash-svgrepo-com\ -\ gray.svg);
+    background-size: 26px;
+}
+
+.accordion-body{
+    background-color: whitesmoke !important;
+}
+
+.accordion-body{
+    /* font-family: 'Poppins', sans-serif; */
+    color:#9e9393;
+    font-size: 15px;
+}

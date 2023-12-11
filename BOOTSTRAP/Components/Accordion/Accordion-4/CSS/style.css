@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(to left,rgb(239,138,115),rgb(95,129,199));
+}
+
+.accordion .accordion-item{
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+}
+
+.accordion .accordion-item .accordion-button{
+    box-shadow: none;
+    background: transparent;
+    border-radius: 8px !important;
+    --bs-accordion-btn-icon-color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
+
+.accordion .accordion-item .accordion-button::after{
+    /* --bs-accordion-btn-icon-color: #fff; */
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+
+.accordion .accordion-item .accordion-body{
+    background: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2));
+}
