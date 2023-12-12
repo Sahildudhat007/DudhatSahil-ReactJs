@@ -14,24 +14,25 @@ body{
     background-color: rgba(255, 253, 251, 0.95);
 }
 
-.accordion-header .accordion-button::after{
-    background-color: white;
-    width: 39px;
-    height: 39px;
-    border-radius: 100%;
+.accordion-button::after{
     position: absolute;
-    top: 0;
-    left: -18px;
-    bottom: 0;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
     margin: auto;
-    background-image: url(icons/plus-svgrepo-com\ -\ gray.svg);
-    background-position: center;
+    margin-left: -19px;
+    border-radius: 100%;
+    background: url(../plus.svg);
     background-size: cover;
-}
+    height: 35px;
+    width: 35px;
+    background-color: whitesmoke;
+}   
 
-.accordion-header .accordion-button:not(.collapsed)::after{
-    background-image:url(icons/dash-svgrepo-com\ -\ gray.svg);
-    background-size: 26px;
+.accordion-button:not(.collapsed)::after{
+    background: url(../dash.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .accordion-body{

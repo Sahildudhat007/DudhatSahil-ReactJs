@@ -9,8 +9,19 @@ body{
     --bs-accordion-btn-focus-box-shadow: none;
 }
 
-.accordion-button:not(.collapsed) {
-    box-shadow: none
+.accordion-button::after{
+    background: url(../../plus.svg);
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}   
+
+.accordion-button:not(.collapsed)::after{
+    background: url(../../dash.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 

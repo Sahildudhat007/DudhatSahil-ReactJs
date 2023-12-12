@@ -21,7 +21,7 @@
     top: 0%;
     left: 0%;
     bottom: 0%;
-    background-image:url(icons/plus-svgrepo-com\ -white.svg);
+    background-image:url(../../plus.svg);
     margin: auto;
     margin-left: 10px;
     width: 26px !important;
@@ -30,7 +30,7 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image:url(icons/dash-svgrepo-com\ -white.svg);
+    background-image:url(../../dash.svg);
     background-position: center;
     background-size:18px;  
 } 
