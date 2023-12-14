@@ -33,6 +33,7 @@ body{
     background: url(../dash.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: whitesmoke;
 }
 
 .accordion-body{
