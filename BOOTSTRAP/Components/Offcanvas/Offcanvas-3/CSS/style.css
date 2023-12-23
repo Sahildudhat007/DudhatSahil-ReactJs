@@ -1,0 +1,19 @@
+
+
+
+
+.offcanvas-body a{
+    display: block;
+    line-height: 55px;
+    text-decoration: none;
+    padding-left: 10px; 
+    color: #274f62;
+    font-size: 20px;
+}
+
+.bg-primary{
+    background-color: rgb(3, 110, 172)!important;
+    color: white !important;
+    position: relative;
+    top: 0;
+}

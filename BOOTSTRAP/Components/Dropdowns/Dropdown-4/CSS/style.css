@@ -1,0 +1,21 @@
+.btn{
+    width: 300px;
+    height: 45px;
+}
+
+.dropdown-menu{
+    width: 300px;
+    height: 200px;
+    line-height: 45px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 140px;
+    vertical-align: 0.255em;
+    content: "";
+}
+
+.hov:hover{
+    background-color: rgba(165, 254, 165, 0.275);
+}

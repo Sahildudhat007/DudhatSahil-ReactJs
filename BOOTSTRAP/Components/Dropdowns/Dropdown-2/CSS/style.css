@@ -1,0 +1,19 @@
+.dropdown{
+    margin: 45px 0;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.active{
+    background-color: rgb(224, 224, 224) !important;
+}
+
+.bg-dark{
+    background-color: rgb(193, 191, 191) !important;
+}
+
+.hover{
+    background-color: rgb(235, 235, 235) !important;
+}

@@ -1,0 +1,9 @@
+.container{
+    padding: 0 10px;
+}
+
+.dropdown{
+    display: inline-flex;
+    padding: 0 90px;
+}
+

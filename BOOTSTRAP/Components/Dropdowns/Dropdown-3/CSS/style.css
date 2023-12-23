@@ -1,0 +1,23 @@
+.btn-success{
+    background-color: rgba(0, 255, 170, 0.804);
+    border: none;
+    width: 300px;
+    height: 50px;
+}
+
+.dropdown-menu{
+    background-color: whitesmoke;
+    width: 300px;
+}
+
+.hov:hover{
+    background-color: rgb(0, 255, 170);
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0;
+}

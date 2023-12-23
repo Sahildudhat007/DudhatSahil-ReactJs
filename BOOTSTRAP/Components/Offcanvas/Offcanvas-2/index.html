@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Offcanvas-2</title>
+</head>
+
+<body style="background-color: rgb(35, 49, 70); width: 100%;">
+    <div class="container m-auto d-flex flex-column align-items-center justify-content-center">
+        <div class="mt-5 pt-5">
+            <h4 class="text-center text-danger fs-2 text-capitalize">off-canvas Menu</h4>
+            <div class="btn">
+                <button class="btn btn-outline-light px-3" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Side Slide</button>
+                <button class="btn btn-outline-light px-3" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Drop-down</button>
+            </div>
+        </div>
+        
+        <div class="offcanvas offcanvas-start bg-danger" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header d-flex justify-content-end">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav flex-column text-center fs-5" style="line-height: 55px;">
+                    <li>
+                        <a href="#" class="text-decoration-none text-light">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-light">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-light">HELP</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-light">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- bootstrap js link -->
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
