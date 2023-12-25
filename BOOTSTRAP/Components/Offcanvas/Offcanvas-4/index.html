@@ -9,6 +9,23 @@
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>offcanvas-4</title>
+    <style>
+        .accordion-button::after {
+          background-image: none;
+          background-repeat: no-repeat;
+          content: none;
+        }
+        .accordion-button::before {
+          width: var(--bs-accordion-btn-icon-width);
+          height: var(--bs-accordion-btn-icon-width);
+          margin-right: 5px;
+          content: "";
+          background-image: var(--bs-accordion-btn-icon);
+          background-repeat: no-repeat;
+          background-size: var(--bs-accordion-btn-icon-width);
+          transition: var(--bs-accordion-btn-icon-transition);
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +56,7 @@
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item border-0 ">
                           <h2 class="accordion-header">
-                            <button class="accordion-button ps-4 text-dark bg-white fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <button class="accordion-button text-dark bg-white fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                               Home
                             </button>
                           </h2>
@@ -55,7 +72,7 @@
                         </div>
                         <div class="accordion-item border-0 ">
                           <h2 class="accordion-header">
-                            <button class="accordion-button ps-4 text-dark bg-white fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <button class="accordion-button text-dark bg-white fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                               Dashboard
                             </button>
                           </h2>
@@ -71,7 +88,7 @@
                         </div>
                         <div class="accordion-item border-0 ">
                           <h2 class="accordion-header">
-                            <button class="accordion-button ps-4 text-dark bg-white fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <button class="accordion-button text-dark bg-white fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                               Orders
                             </button>
                           </h2>
@@ -90,7 +107,7 @@
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-0 ">
                       <h2 class="accordion-header">
-                        <button class="accordion-button ps-4 text-dark bg-white fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseforth" aria-expanded="false" aria-controls="flush-collapseforth">
+                        <button class="accordion-button text-dark bg-white fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseforth" aria-expanded="false" aria-controls="flush-collapseforth">
                           Accounts
                         </button>
                       </h2>
