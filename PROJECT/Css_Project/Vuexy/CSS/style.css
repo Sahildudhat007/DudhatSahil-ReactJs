@@ -15,8 +15,9 @@ main{
 .aside{
     /* height: 300vh; */
     width: 220px;
-    height: 115rem;
-    border: 1px solid black;
+    /* height: 115rem; */
+    box-shadow: 0 0 10px #dbdade;
+    /* border: 1px solid black; */
     /* background-color: red; */
 }
 .aside .aside-logo{
@@ -114,9 +115,24 @@ main{
 .main-section .search-box .search input{
     border: none;
     font-size: 15px;
-    margin: 0 25px;
     color: #6c6b70;
 }
+
+.glass{
+    align-items: center;
+}
+
+.manu-icon{
+    position: relative;
+    left: 230px;
+}
+
+.manu-icon .material-symbols-outlined{
+    padding-left: 15px;
+    align-items: center;
+    color: #6c6b70;
+}
+
 /* nav-button */
 .main-section .nav-button .profile-logo{
     height: 30px;
@@ -792,10 +808,7 @@ main{
     color: #6c6b70;
     display: flex;
 }
-.search-box{
-    font-size: 15px;
-    margin-left: 250px;
-}
+
 .form-control{
     height: 30px;
     width: 200px;
@@ -807,7 +820,86 @@ main{
     display: flex;
 }
 
+/* .card-10{
+    box-shadow: 0 0 10px #dbdade;
+    margin: 10px 23px;
 
+} */
+
+.table-head {
+    display: flex;
+    margin: 10px 15px;
+    padding: 20px 0px;
+}
+
+.input-box {
+    margin-left: auto;
+    font-size: 17px;
+    color: grey;
+    /* padding: 10px; */
+}
+
+input {
+    /* font-size: 20px; */
+    height: 25px;
+    width: 250px;
+}
+
+.icon {
+    background-color: rgba(162, 162, 162, 0.383);
+    color: grey;
+    height: 40px;
+    width: 40px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.table-name {
+    display: flex;
+}
+
+.web-name {
+    padding-left: 5px;
+}
+
+.leader {
+    padding-left: 50px;
+}
+
+.img {
+    padding-left: 30px;
+}
+
+.status {
+    padding-left: 20px;
+}
+
+.tfooter{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text{
+    color: #505051;
+    font-size: 13px;
+}
+
+.btn{
+    padding: 8px 11px;
+    font-size: 15px;
+    color: #474749;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-1{
+    background-color: #7367F0;
+    color: white;
+}
 
 .container{
     position: absolute;
@@ -815,13 +907,19 @@ main{
     left: 240px;
     display: flex;
 }
+
+.container{
+    margin-top: 20px;
+}
+
 .footer a{
     text-decoration: none;
     color: #7367F0;
 }
 .d-none{
     position: relative;
-    top: 2px;
+    top: 1px;
+    display: flex;
     margin-left: 347px;
 }
 .d-none a{

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../sass/Second.scss","../variable/_bg.scss","../variable/_padding.scss","Second.css","../variable/_margin.scss","../variable/_colors.scss","../variable/_font-size.scss"],"names":[],"mappings":"AAGA;EACI,qBCHE;EDIF,aELC;ACGL;AHII;EACI,qBAAA;EACA,aAAA;EACA,6BAAA;AGFR;AHIQ;EACI,kBITP;ADOL;AHIY;EACI,qBAAA;EACA,YKdX;ELeW,eMjBT;AHeP","file":"Second.css"}

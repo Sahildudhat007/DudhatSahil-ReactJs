@@ -1,0 +1,59 @@
+@import '../variable/variables';
+// @use '../variable/variables' as *;
+
+
+.container{
+    display: $df;
+    justify-content: $j-center;
+    padding: 0 $p-10;
+    flex-flow: row wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card{
+    flex: 1 1 25%;
+    border: $border-2 solid $c-b;
+    padding: $p-3 $p-1;
+    margin: $m-2;
+    text-align: $ta-c;
+}
+
+.icon{
+    font-size: $fs-60;
+    color: $c-b;
+}
+
+.card-title{
+    font-size: $fs-25;
+    margin-bottom: $m-1;
+}
+
+.card-text{
+    margin-bottom: $m-3;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: $c-b;
+    padding: $p-1 $p-4;
+    border-radius: 20px;
+    color: $c-w;
+}
+
+.card-1{
+    background-color: $bg-r;
+    border: $border-2 solid $bg-r;
+}
+
+.title-1, .text-1{
+    color: $c-w;
+}
+
+.btn-1{
+    background-color: $c-w;
+    color: $c-r;
+}
+
+.icon-1{
+    color: $bg-w;
+}

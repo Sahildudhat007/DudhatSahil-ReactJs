@@ -1,0 +1,47 @@
+@import '../variable/variables';
+
+//Sass Nesting
+nav{
+    background-color: $bg-r;
+    padding: $p-1;
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+
+        li{
+            margin-right:$m-5;
+
+            a{
+                text-decoration: none;
+                color: $c-w;
+                font-size: $fs-20;
+            }
+        }
+    }
+}
+
+// @at-root
+// nav{
+//     background-color: $bg-y;
+//     padding: $p-1;
+//     @at-root
+
+//     ul{
+//         list-style-type: none; 
+//         display: flex;
+//         @at-root 
+
+//         li{
+//             margin-right: $m-5;
+//             @at-root
+
+//             a{
+//                 text-decoration: none;
+//                 font-size: $fs-20;
+//                 color: $c-b;
+//             }
+//         }
+//     }
+// }
