@@ -4,6 +4,6 @@
         if (i % 2 != 0) {
             continue;
         }
-        document.write(i);
+        document.write(i + "<br>");
     }
 }
