@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Task-18</title>
+
+    <style>
+        .form-control.is-invalid{
+            background-image: none;
+        }
+        .form-control.is-valid{
+            background-image: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container shadow">
+        <form class="row g-3 mt-3">
+            <div class="col-md-6">
+              <label for="validationServer01" class="form-label">First name</label>
+              <input type="text" class="form-control is-valid bg-light- border-danger" id="validationServer01" placeholder="Jane" required>
+              <div class="valid-feedback text-danger">
+                please fill out this field
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationServer02" class="form-label">Last name</label>
+              <input type="text" class="form-control is-invalid border-0 bg-light" id="validationServer02" placeholder="Doe" required>
+            </div>
+            <div class="col-md-12">
+              <label for="validationServerUsername" class="form-label">PASSWORD</label>
+              <div class="input-group has-validation">
+                <!-- <span class="input-group-text" id="inputGroupPrepend3">@</span> -->
+                <input type="text" class="form-control is-invalid bg-light border-0" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="******" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback text-muted">
+                  Make it as long and as crazy as your'd link
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationServer03" class="form-label">City</label>
+              <input type="text" class="form-control is-invalid border-0 bg-light" id="validationServer03" aria-describedby="validationServer03Feedback" placeholder="Albuquerque" required>
+              <!-- <div id="validationServer03Feedback" class="invalid-feedback">
+                Please provide a valid city.
+              </div> -->
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationServer04" class="form-label">State</label>
+              <select class="form-select is-invalid border-0 bg-light" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                <option selected disabled value="">New Mexico</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationServer05" class="form-label">Zip</label>
+              <input type="text" class="form-control is-invalid border-0 bg-light" id="validationServer05" aria-describedby="validationServer05Feedback" placeholder="90210" required>
+            </div>
+          </form>
+    </div>
+
+    
+
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

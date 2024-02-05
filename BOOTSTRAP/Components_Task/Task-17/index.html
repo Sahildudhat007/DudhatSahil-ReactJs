@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Task-17</title>
+
+    <style>
+        .pagination{
+            --bs-pagination-border-width: none;
+        }
+    </style>
+
+</head>
+<body class="bg-light">
+    <div class="m-3">
+        <table class="table border">
+            <thead class="table-light">
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                        Invoice
+                    </th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Customer</th>
+                    <th>Purchase</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="" id="">
+                        #3066
+                    </td>
+                    <td>Jan 6, 2022</td>
+                    <td class="py-3">
+                        <a href="" class="text-decoration-none bg-success-subtle text-success p-2 px-3 rounded-pill">
+                            <i class="bi bi-check"></i>
+                            Paid
+                        </a>
+                    </td>
+                    <td class="d-flex">
+                        <div class="py-2">
+                            <a href=""><img src="arthur-melo.jpg" alt="" height="35px" width="35px" class="rounded-pill"></a>
+                        </div>
+                        <div class="px-2">
+                            <p class="mb-0">Arthur Melo</p>
+                            <p class="mb-0">authurmelo@example.com</p>
+                        </div>
+                    </td>
+                    <td>Monthly subscription</td>
+                    <td>Archive</td>
+                    <td>
+                        <a href="" class="text-decoration-none">Download</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="" id="">
+                        #3065
+                    </td>
+                    <td>Jan 5, 2022</td>
+                    <td class="py-3">
+                        <a href="" class="text-decoration-none bg-danger-subtle text-danger p-2 px-3 rounded-pill">
+                            <i class="bi bi-x"></i>
+                            Cancelled
+                        </a>                       
+                    </td>
+                    <td class="d-flex">
+                        <div class="py-2">
+                            <a href="">
+                                <img src="Andi_Lane.jpeg" alt="" height="35px" width="35px" class="rounded-pill">
+                            </a>
+                        </div>
+                        <div class="px-2">
+                            <p class="mb-0">Andi Lane</p>
+                            <p class="mb-0">andi@example.com</p>
+                        </div>
+                    </td>
+                    <td>Monthly subscription</td>
+                    <td>Archive</td>
+                    <td>
+                        <a href="" class="text-decoration-none">Download</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="" id="">
+                        #3064
+                    </td>
+                    <td>Jan 5, 2022</td>
+                    <td class="py-3">
+                        <a href="" class="text-decoration-none bg-success-subtle text-success p-2 px-3 rounded-pill">
+                            <i class="bi bi-check"></i>
+                            Paid
+                        </a>
+                    </td>
+                    <td class="d-flex">
+                        <div class="py-2">
+                            <a href="">
+                                <img src="Kate_Morrison.jpeg" alt="" height="35px" width="35px"
+                                class="rounded-pill">
+                            </a>
+                        </div>
+                        <div class="px-2">
+                            <p class="mb-0">Kate Morrison</p>
+                            <p class="mb-0">kate@example.com</p>
+                        </div>
+                    </td>
+                    <td>Monthly subscription</td>
+                    <td>Archive</td>
+                    <td>
+                        <a href="" class="text-decoration-none">Download</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="" id="">
+                        #3063
+                    </td>
+                    <td>Jan 4, 2022</td>
+                    <td class="py-3">
+                        <a href="" class="text-decoration-none bg-success-subtle text-success p-2 px-3 rounded-pill">
+                            <i class="bi bi-check"></i>
+                            Paid
+                        </a>
+                    </td>
+                    <td class="d-flex">
+                        <div class="py-2">
+                            <a href="">
+                                <img src="Candice.jpeg" alt="" height="35px" width="35px" class="rounded-pill">
+                            </a>
+                        </div>
+                        <div class="px-2">
+                            <p class="mb-0">Candice Wu</p>
+                            <p class="mb-0">candice@example.com</p>
+                        </div>
+                    </td>
+                    <td>Monthly subscription</td>
+                    <td>Archive</td>
+                    <td>
+                        <a href="" class="text-decoration-none">Download</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="" id="">
+                        #3062
+                    </td>
+                    <td>Jan 4, 2022</td>
+                    <td class="py-3">
+                        <a href="" class="text-decoration-none bg-secondary-subtle  text-secondary p-2 px-3 rounded-pill">
+                            <i class="bi bi-arrow-90deg-left"></i>
+                            Refunded
+                        </a>
+                    </td>
+                    <td class="d-flex">
+                        <div class="py-2">
+                            <a href="">
+                                <img src="Orlando.jpeg" alt="" height="35px" width="35px" class="rounded-pill">
+                            </a>
+                        </div>
+                        <div class="px-2">
+                            <p class="mb-0">Orlando Diggs</p>
+                            <p class="mb-0">orlando@example.com</p>
+                        </div>
+                    </td>
+                    <td>Monthly subscription</td>
+                    <td>Archive</td>
+                    <td>
+                        <a href="" class="text-decoration-none">Download</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-between">
+            <div>
+                <button class="border-1 bg-light p-2 px-3"><i class="bi bi-arrow-left px-1"></i>Previous</button>
+            </div>
+            <div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link bg-primary-subtle rounded-1" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link text-muted bg-light" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link text-muted bg-light" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link text-muted bg-light" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link text-muted bg-light" href="#">12</a></li>
+                        <li class="page-item"><a class="page-link text-muted bg-light" href="#">13</a></li>
+                        <li class="page-item"><a class="page-link text-muted bg-light" href="#">14</a></li>
+                    </ul>
+                </nav>
+            </div> 
+            <div>
+                <button class="border-1 bg-light p-2 px-4">Next<i class="bi bi-arrow-right px-1"></i></button>
+            </div> 
+        </div>
+    </div>
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
