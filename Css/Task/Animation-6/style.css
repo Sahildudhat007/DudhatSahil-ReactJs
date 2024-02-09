@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.spinner-1{
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    border-left-color: red;
+    border-radius: 100%;
+    animation: clock 3s linear infinite;
+}
+
+@keyframes clock{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+.spinner-2{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 8px solid black;
+    border-left-color: green;
+    border-radius: 100%;
+    position: absolute;
+    animation: anticlock 3s linear infinite;
+}
+
+@keyframes anticlock{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: -360deg;
+    }
+}

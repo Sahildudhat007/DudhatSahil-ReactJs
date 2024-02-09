@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color: orange;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.main .card-wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 28%; 
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-body{
+    padding: 20px 25px;
+    position: absolute;
+    top: 0;
+}
+
+.card:hover .card-img{
+    transform: scale(1.1);
+    opacity: 0.5; 
+}
+
+.card:hover .card-header{
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    transform: translateY(40px);
+}
+
+.card .card-body .card-header .title{
+    color: orange;
+    font-weight: bold;
+}
+
+.card .card-body .card-header .text{
+    color: white;
+}
+
+.card .card-body .card-header .date{
+    color: white;
+}
+
+.card-footer{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.footer{
+    display: flex;
+    margin: 30px 13px;
+}
+
+.profile-img{
+    width: 45px;
+    padding-top: 32px;
+    margin-right: 10px;
+}
+
+.data{
+    color: white;
+    line-height: 0;
+    padding-top: 1.2rem;
+}

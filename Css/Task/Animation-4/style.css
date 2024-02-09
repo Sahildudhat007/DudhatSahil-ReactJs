@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    background: rebeccapurple;
+    border-radius: 50%;
+    animation-name: hart;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes hart{
+    0% {
+      /* opacity: 1; */
+    }
+    50% {
+      transform: scale(1.4);
+      /* opacity: 0.4; */
+    }
+}
+  

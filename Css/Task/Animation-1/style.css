@@ -1,0 +1,25 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: width 2s;
+}
+
+div:hover{
+    width: 300px;
+} */
+
+div{
+    width: 250px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: blueviolet;
+    animation-name: task;
+    animation-duration: 500ms;
+    transition: 500ms linear;
+}
+
+div:hover{
+    width: 300px;
+    height: 200px;
+}

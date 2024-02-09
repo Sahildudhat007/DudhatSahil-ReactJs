@@ -1,0 +1,43 @@
+
+div{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-color: whitesmoke;
+    animation-name: counter;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+div::before{
+    color: black;
+    content: counter(counter);
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes counter{
+    0%{
+        counter-increment:  0;
+    }
+    10%{
+        counter-increment: counter 1;
+    }
+    20%{
+        counter-increment: counter 2;
+    }
+    30%{
+        counter-increment: counter 3;
+    }
+    40%{
+        counter-increment: counter 4;
+    }
+    50%{
+        counter-increment: counter 5;
+    }
+    60%{
+        counter-increment: counter 6;
+    }
+}

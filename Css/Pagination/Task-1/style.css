@@ -1,0 +1,61 @@
+.pagination{
+    width: 500px;
+    display: flex;
+    margin: 20px auto;
+}
+
+.backward, .forward{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 100%;
+    transition: all 0.5s linear;
+}
+
+
+
+.backward:hover span{
+    transition: all 0.5s linear;
+    transform: translateX(-5px);
+}
+
+.forward:hover span{
+    transform: translateX(5px);
+    
+}
+
+.backward:hover, .forward:hover{
+    color: white;
+    background-color: red;
+    
+}
+
+.page-1{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.page-1 a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page-1:hover, .page-1:hover a{
+    color: white;
+    background-color: red;
+}
+
