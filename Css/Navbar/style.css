@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Urbanist, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+
+.nav-item nav ul {
+    display: none;
+}
+
+.nav-item nav ul li {
+    margin: 0 15px;
+}

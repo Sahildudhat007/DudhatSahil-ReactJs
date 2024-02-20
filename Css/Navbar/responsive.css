@@ -1,0 +1,17 @@
+@media (min-width:576px) {
+    .mobile-manu {
+        display: flex;
+    }
+}
+
+@media (min-width:768px) {
+    .navbar .nav-item nav ul {
+        display: flex;
+    }
+
+    .mobile-manu {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {}
