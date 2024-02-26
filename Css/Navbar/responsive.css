@@ -1,6 +1,7 @@
 @media (min-width:576px) {
     .mobile-manu {
         display: flex;
+        margin-right: 10px;
     }
 }
 

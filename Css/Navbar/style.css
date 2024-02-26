@@ -14,6 +14,7 @@
 
 .navbar {
     display: flex;
+    margin-top: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -23,6 +24,14 @@
     font-weight: 600;
     color: red;
 }
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a:hover{
+    color: red;
+}
 
 .nav-item nav ul {
     display: none;
@@ -30,4 +39,19 @@
 
 .nav-item nav ul li {
     margin: 0 15px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: red;
+    font-weight: 500;
+    border: 1px solid red;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
 }
