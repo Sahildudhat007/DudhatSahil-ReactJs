@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+.cotainer {
+    width: 100%;
+}
+
+.main-nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav .navbar .navbar-nav {
+    display: flex;
+}
+
+.main-nav .navbar .navbar-nav .nav-item {
+    margin: 40px 12px;
+    font-size: 18px;
+    color: gray;
+}
+
+.main-nav .navbar .navbar-nav .nav-item a {
+    color: #212529;
+}
+
+.main-nav .navbar .navbar-nav .nav-item span {
+    padding: 0 1px;
+}
+
+.main-nav .navbar-brand {
+    padding: 35px 25px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.main-nav .ticket {
+    background: #ff6600;
+    display: flex;
+    align-items: center;
+    padding: 34px 32px;
+}
+
+.main-nav .ticket img {
+    border-right: 1px solid #e5e5e5;
+    padding: 0 10px;
+}
+
+.main-nav .ticket span {
+    color: #e5e5e5;
+}
+
+.header {
+    background-image: url(../page-title-bg.jpg);
+    height: 140px;
+    background-position: center;
+    position: static;
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+    padding: 50px 0;
+    line-height: 25px;
+}
+
+.text h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text p {
+    font-size: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header .arror {
+    text-align: center;
+    margin: 40px 0;
+    line-height: 30px;
+}
+
+.header .arror img {
+    height: 120px;
+}
+
+.header .arror p {
+    font-size: 19px;
+}
+
+.header .arror p span {
+    color: #ff6600;
+}
+
+.header .arror a {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 5px 15px;
+    line-height: 55px;
+}

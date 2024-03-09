@@ -1,3 +1,6 @@
+@import '../variable/variables';
+
 .main-nav{
-    padding: 30px;
+    padding: $p-3;
+    margin: $m-3;
 }

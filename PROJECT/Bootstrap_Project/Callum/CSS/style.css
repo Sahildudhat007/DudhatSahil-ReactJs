@@ -7,6 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Public Sans', sans-serif;
 }
+
 header{
     display: block;
 }
@@ -49,11 +50,11 @@ h3{
     margin: 0 auto 1.5rem;
 }
 .featured-box-icon{
-color: #4c4d4d;
-font-size: 3rem;
-min-height: 60px;
-min-width: 60px;
-font-weight: 500;
+    color: #4c4d4d;
+    font-size: 3rem;
+    min-height: 60px;
+    min-width: 60px;
+    font-weight: 500;
 }
 
 .portfolio .portfolio-box .portfolio-overlay {
@@ -163,6 +164,7 @@ font-weight: 500;
     font-size: 90px;
 }
 .section{
+    /* margin: 100px; */
     padding: 100px;
 }
 .section .container .row .col-sm-6 .featured-box .featured-box-icon{
@@ -182,10 +184,9 @@ font-weight: 500;
     text-align: center;
 }
 
-
-.section{
+/* .section{
     margin-left: -40px;
-}
+} */
 .text-8{
     font-weight: 400;
 }
@@ -204,9 +205,9 @@ font-weight: 500;
 .bg-dark {
     background-color: #111418!important;
 }
-.row{
+/* .row{
     max-width: 100%;
-}
+} */
 .accordion{
     padding-top: 20px;
 }
