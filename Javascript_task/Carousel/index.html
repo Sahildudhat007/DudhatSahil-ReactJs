@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Crousel</title>
+    <link rel="stylesheet" href="carousel.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <button class="left" onclick="previousRev()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF">
+                <path d="M400-80 0-480l400-400 61 61.67L122.67-480 461-141.67 400-80Z" />
+            </svg>
+        </button>
+
+        <div class="rev-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Somanatha_view-II.JPG/1200px-Somanatha_view-II.JPG"
+                alt="" class="re-img">
+            <div class="re-text">
+                <p class="re-heading">Somnath</p>
+                <p class="re-para">Somnath is traditionally considered the first pilgrimage site: the Dwadash
+                    Jyotirlinga pilgrimage begins with the Somnath Temple. The temple, that was destroyed and re-built
+                    sixteen times, is held in reverence throughout India and is rich in legend, tradition, and history.
+                    It is located at Prabhas Patan (Somnath - Veraval) in Saurashtra in Gujarat.</p>
+            </div>
+        </div>
+        <div class="rev-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Srisailam-temple-entrance.jpg/1200px-Srisailam-temple-entrance.jpg"
+                alt="" class="re-img">
+            <div class="re-text">
+                <p class="re-heading">Mallikarjuna</p>
+                <p class="re-para">Mallikārjuna, also called Śrīśaila, is located on a mountain on the river Krishna.[8]
+                    Srisailam, in Kurnool District in Andhra Pradesh enshrines Mallikarjuna in an ancient temple that is
+                    architecturally and sculpturally rich.It is one place where Shakti peeta and Jyotirlingam are
+                    together. Adi Shankaracomposed his Sivananda Lahiri here.[citation needed].</p>
+            </div>
+        </div>
+        <div class="rev-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mahakal_Temple_Ujjain.JPG/618px-Mahakal_Temple_Ujjain.JPG"
+                alt="" class="re-img">
+            <div class="re-text">
+                <p class="re-heading">Mahakaleshwar</p>
+                <p class="re-para">Mahakal, Ujjain (or Avanti) in Madhya Pradesh is home to the Mahakaleshwar
+                    Jyotirlinga temple. The Lingam at Mahakal is believed to be Swayambhu, the only one of the 12
+                    Jyotirlingams to be so. It is also the only one facing south and also the temple to have a Shree
+                    Yantra perched upside down at the ceiling of the Garbhagriha (where the Shiv Lingam sits).It is one
+                    place where Shakti peeta and Jyotirlingam are together</p>
+            </div>
+        </div>
+        <div class="rev-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Omkareshwar.JPG/1200px-Omkareshwar.JPG"
+                alt="" class="re-img">
+            <div class="re-text">
+                <p class="re-heading">Omkareshwar</p>
+                <p class="re-para">Omkareshwar in Madhya Pradesh on an island in the Narmada River is home to a
+                    Jyotirlinga shrine and the Mamaleshwar temple.</p>
+            </div>
+        </div>
+        <div class="rev-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Kedarnath_Temple.jpg" alt="" class="re-img">
+            <div class="re-text">
+                <p class="re-heading">Kedarnath</p>
+                <p class="re-para">Kedarnath in Uttarakhand is revered as the northernmost and the closest Jyotirlinga
+                    to Lord Shiva's eternal abode of Mount Kailash. Kedarnath forms a part of the smaller Char Dham
+                    pilgrimage circuit of Hinduism. Kedarnath, nestled in the snow-clad Himalayas, is an ancient shrine,
+                    rich in legend and tradition. It is accessible only by foot, and only for six months a year.</p>
+            </div>
+        </div>
+
+        <button class="right" onclick="nextRev()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF">
+                <path d="m309.67-81.33-61-61.67L587-481.33 248.67-819.67l61-61.66 400 400-400 400Z" />
+            </svg>
+        </button>
+
+    </div>
+
+
+    <script src="Carousel.js"></script>
+</body>
+
+</html>

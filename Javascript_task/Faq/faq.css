@@ -1,0 +1,40 @@
+.layout {
+    width: 600px;
+    margin: auto;
+}
+ 
+.accordion {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+}
+ 
+.accordion__question p {
+    margin: 5px;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 17px;
+}
+ 
+.accordion__answer p {
+    /* margin: 5px; */
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: gray;
+}
+ 
+.accordion:hover {
+    cursor: pointer;
+}
+ 
+.accordion__answer {
+    display: none;
+}
+ 
+.accordion.active .accordion__answer {
+    display: block;
+}
