@@ -1,0 +1,124 @@
+{
+    "item": [
+        {
+            "id": "1",
+            "itemName": "Samsung Galaxy S24Ultra",
+            "rate": 159999,
+            "img": "https://static.toiimg.com/thumb/msid-108674811,width-1280,height-720,resizemode-4/108674811.jpg"
+        },
+        {
+            "id": "2",
+            "itemName": "Samsung Galaxy Book3 Pro",
+            "rate": 109990,
+            "img": "https://m.media-amazon.com/images/I/31aPzW9atKL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "3",
+            "itemName": "Samsung Galaxy Watch Ultra",
+            "rate": 56527,
+            "img": "https://m.media-amazon.com/images/I/81i1Vn-KQuL._SX679_.jpg"
+        },
+        {
+            "id": "4",
+            "itemName": "Samsung Galaxy Tab S9 Ultra",
+            "rate": 108999,
+            "img": "https://m.media-amazon.com/images/I/71LviO0dvIL._SX679_.jpg"
+        },
+        {
+            "id": "5",
+            "itemName": "Samsung TV",
+            "rate": 159999,
+            "img": "https://images.samsung.com/is/image/samsung/p6pim/in/qa77s90daelxl/gallery/in-oled-s90d-496718-qa77s90daelxl-541254661?$730_584_PNG$"
+        },
+        {
+            "id": "6",
+            "itemName": "Samsung Galaxy Z Fold",
+            "rate": 164999,
+            "img": "https://m.media-amazon.com/images/I/31BnaRVsiVL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "7",
+            "itemName": "Samsung washing machines",
+            "rate": 42620,
+            "img": "https://s3.ap-south-1.amazonaws.com/brandbuddiez.com//88/img/product/34/1481/FI2826_WM%20Image%20Resize%20FL%202_HW90-DM14959CBKU1-19.webp"
+        },
+        {
+            "id": "8",
+            "itemName": "Samsung Galaxy Book4",
+            "rate": 61980,
+            "img": "https://m.media-amazon.com/images/I/41Q5HSfge9L._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "9",
+            "itemName": "HP EliteBook",
+            "rate": 31900,
+            "img": "https://www.oldlappy.com/982-large_default/hp-elitebook-1030g2-2-in-1-133-touchscreen-fhd-a-grade-business-class-light-weight.jpg"
+        },
+        {
+            "id": "10",
+            "itemName": "Nike mens Air Jordan",
+            "rate": 39739,
+            "img": "https://m.media-amazon.com/images/I/61avy-bCpJL.SS700.jpg"
+        },
+        {
+            "id": "11",
+            "itemName": "MacBook Pro",
+            "rate": 249900,
+            "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-16-spaceblack-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381822"
+        },
+        {
+            "id": "12",
+            "itemName": "iPhone 15 Pro Max",
+            "rate": 143999,
+            "img": "https://m.media-amazon.com/images/I/81dT7CUY6GL._SX679_.jpg"
+        },
+        {
+            "id": "13",
+            "itemName": "Apple IMAC",
+            "rate": 97409,
+            "img": "https://m.media-amazon.com/images/I/71uibx5Ns7L.SS700.jpg"
+        },
+        {
+            "id": "14",
+            "itemName": "Airpods Pro",
+            "rate": 18891,
+            "img": "https://img3.gadgetsnow.com/gd/images/products/additional/large/G331966_View_1/accessories/headphones-headsets/apple-airpods-pro-true-wireless-with-magsafe-charging-case-bluetooth-headset-white-.jpg"
+        },
+        {
+            "id": "15",
+            "itemName": "Men's Running T-Shirt",
+            "rate": 2195,
+            "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8511b1b3-6734-4872-9290-d5c57ea3f6fd/AS+M+NK+DF+TEE+UTMB+ENERGY.png"
+        },
+        {
+            "id": "16",
+            "itemName": "Nike Backpack",
+            "rate": 6995,
+            "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f8f0164b-f8b2-4a98-8240-4182ad70f234/NK+UTILITY+ELITE+BKPK+-+2.0.png"
+        },
+        {
+            "id": "17",
+            "itemName": "Nike Hoops Elite",
+            "rate": 5295,
+            "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2af2bbf9-84c2-41ef-a449-f552453ccf85/NK+HOOPS+ELITE+BKPK+-+FA23.png"
+        },
+        {
+            "id": "18",
+            "itemName": "Crew Socks",
+            "rate": 1495,
+            "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ffd45ef2-b135-4385-84bf-30d81f4d1bf7/U+SNKRSOX+CREW+3PR-160+NOCTA.png"
+        },
+        {
+            "id": "19",
+            "itemName": "Apple AirPods Max",
+            "rate": 1999,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmlkiVyuLCKHv6KBdYwZvw2AgfWRLG0ndug&s"
+        },
+        {
+            "id": "20",
+            "itemName": "Electric Bike",
+            "rate": 138989,
+            "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQVetNj6pQxUDauBn-MBDDpg6XX7k7io-Ubrx9-vsg6tZ7kK5PgFqQhxUJWwHN93isO40FVDIAFRBs_9KKCa2t0SLPmRq5pAAma41dXSrweyrZxRgl8JMTB53QhVA&usqp=CAc"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "card": [
+    {
+      "id": "9365",
+      "CreaditCardName": " State Bank of India",
+      "CreaditCardNumber": "3487364489003687",
+      "Limit": "100000",
+      "Spend": "50000",
+      "LastLimit": "50000",
+      "UserRatio": "5%"
+    },
+    {
+      "id": "8a1c",
+      "CreaditCardName": "Varachha Bank",
+      "CreaditCardNumber": "1274536285925026",
+      "Limit": "100000",
+      "Spend": "50000",
+      "LastLimit": "50000",
+      "UserRatio": "5%"
+    },
+    {
+      "id": "a4a9",
+      "CreaditCardName": "Bank Of India",
+      "CreaditCardNumber": "3642345464390239",
+      "Limit": "50000",
+      "Spend": "20000",
+      "LastLimit": "30000",
+      "UserRatio": "2%"
+    },
+    {
+      "id": "d1da",
+      "CreaditCardName": "Bank of Baroda",
+      "CreaditCardNumber": "3245697088406836",
+      "Limit": "20000",
+      "Spend": "10000",
+      "LastLimit": "10000",
+      "UserRatio": "2%"
+    },
+    {
+      "id": "9b75",
+      "CreaditCardName": "ICICI Bank",
+      "CreaditCardNumber": "4656384932338747",
+      "Limit": "20000",
+      "Spend": "15000",
+      "LastLimit": "5000",
+      "UserRatio": "5%"
+    },
+    {
+      "id": "920a",
+      "CreaditCardName": " Axis Bank",
+      "CreaditCardNumber": "3236578788599534",
+      "Limit": "20000",
+      "Spend": "10000",
+      "LastLimit": "10000",
+      "UserRatio": "20%"
+    }
+  ]
+}
