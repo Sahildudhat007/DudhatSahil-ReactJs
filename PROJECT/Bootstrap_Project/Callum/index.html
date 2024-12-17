@@ -1,652 +1,846 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Callum</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callum</title>
     <!-- Google font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- Font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <!-- Css link -->
+    <!-- css link -->
     <link rel="stylesheet" href="CSS/style.css">
 </head>
-<body>
-    <header class="fixed-top bg-light" id="header">
-        <nav class="navbar navbar-expand-none navbar-overlay  border-bottom-0 text-5 fw-600  navbar-overlay-dark">
-            <div class="container">
-                <a href="#" class="logo" title="Callum">
-                    <img src="asset/asset 0.png" alt="Callum">
-                </a>
-                <div class="text-3 ms-auto me-2 ">
-                    <span class="text-4 me-2">
-                        <i class="fa-solid fa-phone-flip"></i>
-                    </span>
-                    (060) 444 434 444
-                    <span>
-                        <i class="fa-solid fa-bars px-2 fs-5" style="color: #080808;"></i>
-                    </span>
+
+<body style="font-family: Poppins, sans-serif;">
+
+    <!-- Header -->
+
+    <header class="sticky-top top-0" style="background-color: #f5df4e;">
+        <nav class="container d-flex align-items-center justify-content-between">
+            <a href="#">
+                <img src="assets/asset 0.png" alt="">
+            </a>
+            <p class="mobile fw-semibold mb-0 ms-auto d-flex align-items-center">
+                <i class="fa-solid fa-phone-flip me-2"></i>
+                (060) 444 434 444
+            </p>
+            <button class="border-0 bg-transparent my-3 mx-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                <i class="fa-solid fa-bars fs-5 fw-semibold"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-top h-auto bg-black" style="opacity: 0.9;" tabindex="-1" id="offcanvasTop"
+                aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
                 </div>
-                <div class="collapse navbar-collapse show">
+                <div class="offcanvas-body">
                     <div class="d-flex flex-column h-100 align-items-center justify-content-center">
-                        <ul class="navbar-nav d-none">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link  active">Home</a>
+                        <ul class="navbar-nav"
+                            style="min-width: 400px; max-height: 80vh; overflow: hidden; overflow-y: auto; padding: 15px;">
+                            <li class="nav-item" style="text-align: center; max-width: 400px; padding: 8px 0;">
+                                <a href="#" class="fw-semibold"
+                                    style="color: #f5df4e; font-size: 1.15rem; text-decoration: none;">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">About Me</a>
+                            <li class="nav-item" style="text-align: center; max-width: 400px; padding: 8px 0;">
+                                <a href="#" class="fw-semibold"
+                                    style="font-size: 1.15rem; color: #eee; text-decoration: none;">About
+                                    Me</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">What I Do</a>
+                            <li class="nav-item" style="text-align: center; max-width: 400px; padding: 8px 0;">
+                                <a href="#" class="fw-semibold"
+                                    style="font-size: 1.15rem; color: #eee; text-decoration: none;">What
+                                    I Do</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Resume</a>
+                            <li class="nav-item" style="text-align: center; max-width: 400px; padding: 8px 0; ">
+                                <a href="#" class="fw-semibold"
+                                    style="font-size: 1.15rem; color: #eee; text-decoration: none;">Resume</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Portfolio</a>
+                            <li class="nav-item" style="text-align: center; max-width: 400px; padding: 8px 0; ">
+                                <a href="#" class="fw-semibold"
+                                    style="font-size: 1.15rem; color: #eee; text-decoration: none;">Portfolio</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">FAQ</a>
+                            <li class="nav-item" style="text-align: center; max-width: 400px; padding: 8px 0; ">
+                                <a href="#" class="fw-semibold"
+                                    style="font-size: 1.15rem; color: #eee; text-decoration: none;">FAQ</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Client Speak</a>
+                            <li class="nav-item" style="text-align: center; max-width: 400px; padding: 8px 0; ">
+                                <a href="#" class="fw-semibold"
+                                    style="font-size: 1.15rem; color: #eee; text-decoration: none;">Client
+                                    Speak</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Contact Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link"></a>
+                            <li class="nav-item" style="text-align: center; max-width: 400px; padding: 8px 0; ">
+                                <a href="#" class="fw-semibold"
+                                    style="font-size: 1.15rem; color: #eee; text-decoration: none;">Contact Me</a>
                             </li>
                         </ul>
-                        <ul class="d-none social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
-                            <li class="social-icons-twitter">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
+                        <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start d-flex mt-5 p-0"
+                            style="list-style-type: none;">
+                            <li class="social-icons-twitter" style="margin: 2px 8px;">
+                                <a href="" style="font-size: 26px; color: #eee;"><i class="fab fa-twitter"></i></a>
                             </li>
-                            <li class="social-icons-facebook">
-                                <a href="#">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
+                            <li class="social-icons-facebook" style="margin: 2px 8px;">
+                                <a href="" style="font-size: 26px; color: #eee;"><i class="fab fa-facebook"></i></a>
                             </li>
-                            <li class="social-icons-instagram">
-                                <a href="#">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
+                            <li class="social-icons-instagram" style="margin: 2px 8px;">
+                                <a href="" style="font-size: 26px; color: #eee;"><i class="fab fa-instagram"></i></a>
                             </li>
-                            <li class="social-icons-linkedin">
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
+                            <li class="social-icons-github" style="margin: 2px 8px;">
+                                <a href="" style="font-size: 26px; color: #eee;"><i class="fab fa-github"></i></a>
                             </li>
-                            <li class="social-icons-dribbble">
-                                <a href="#">
-                                    <i class="fab fa-dribbble"></i>
-                                </a>
+                            <li class="social-icons-dribbble" style="margin: 2px 8px;">
+                                <a href="" style="font-size: 26px; color: #eee;"><i class="fab fa-dribbble"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>                  
+            </div>
         </nav>
     </header>
-    <div class="content" role="main">
-        <section class="bg-warning d-flex py-5">
-            <div class="container my-auto py-5">
-                <div class="row">
-                    <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn">
-                        <h1 class="text-12 fw-300 text-uppercase">Hi, I'm a Freelancer</h1>
-                        <h2 class="text-21 fw-600 text-uppercase mb-0">
-                            <div class="Typewriter" data-testid="typewriter-wrapper">
-                                <span class="Typewriter__wrapper">DESIGNER</span>
-                                <span class="Typewriter__cursor">|</span>
-                            </div>
-                        </h2>
-                        <p class="text-5">based in Los Angeles, USA.</p>
-                        <a href="#" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a>
-                        <a href="#" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me
+
+    <!-- Intro -->
+
+    <section id="home" style="background-color: #f5df4e;">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-7 text-center align-self-center text-lg-start order-1 order-lg-0">
+                    <div>
+                        <h1 class="freelancer fw-light text-uppercase" style="font-size: 3rem;">Hi, I'm a Freelancer
+                        </h1>
+                        <h2 class="title text-uppercase fw-semibold" style="font-size: 6.2rem;">Developer</h2>
+                        <p class="mb-1" style="font-size: 1.3rem;">based in Los Angeles, USA.</p>
+                    </div>
+                    <div class="button d-flex">
+                        <a href="#" class="view btn btn-dark rounded-0 shadow-sm mt-3"
+                            style="padding: 0.8rem 2.6rem;">View
+                            My Works
+                        </a>
+                        <a href="#"
+                            class="view btn mt-3 text-decoration-underline d-flex align-items-center fw-semibold"
+                            style="padding: 0.8rem 2.6rem;">
+                            Contact Me
                             <span class="text-4 ms-2">
-                                <i class="fa-regular fa-circle-down" style="color: #080808;"></i>
+                                <i class="far fa-arrow-alt-circle-down"></i>
                             </span>
                         </a>
                     </div>
-                    <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
-                        <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg">
-                            <img src="asset/asset 1.jpeg" alt="" class="img-fluid rounded-pill d-block">
-                        </div>
+                </div>
+                <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-lg-1">
+                    <div class="bg-light d-inline-block shadow-lg rounded-pill p-3">
+                        <img src="assets/asset 1.jpeg" alt="" class="img-fluid rounded-pill d-block">
                     </div>
                 </div>
-                    <span class="scroll-down-arrow text-dark smooth-scroll">
-                        <i class="fa-solid fa-arrow-down fa-bounce" style="color: #030303;"></i>
-                    </span>
             </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <p class="text-center mb-2">
-                    <span class="bg-warning text-dark px-2">About Me</span>
-                </p>
-                <h2 class="text-10 text-center mb-5 fw-600">Know Me More</h2>
-                <div class="row">
-                    <div class="col-lg-8 text-center text-lg-start">
-                        <h2 class="text- fw-400 mb-3">Hi,I'm
-                            <span class="fw-700 text-dark border-bottom border-3 border-warning">Callum Smith</span>
-                        </h2>
-                        <p class="text-5">I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client's requirements is our moto.</p>
-                    </div>
-                    <div class="col-lg-4 mt-4 mt-lg-0 text-center ">
-                        <div class="box">
-                            <div class="box-txt rounded-circle pb-4">
-                                <span>22</span>
-                            </div>
-                            <h3>Years of <span style="font-weight: 700;">Experiance</span></h3>
+            <a href="" class="scroll-down-arrow text-dark fw-semibold d-flex justify-content-center mt-5">
+                <span class="animated">
+                    <i class="fas fa-arrow-down fa-bounce"></i>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="about" style="padding: 6.5rem 0;">
+        <div class="container">
+            <p class="text-center mb-2 ">
+                <span class="px-2" style="background-color: #f5df4e;">About Me</span>
+            </p>
+            <h2 class="text-center fw-semibold mb-5" style="font-size: 2.50rem;">Know Me More</h2>
+            <div class="row">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h2 class="mb-3" style="font-size: 2rem;">
+                        Hi, I'm
+                        <span class="border-2 border-bottom border-warning fw-bold">Callum Smith</span>
+                    </h2>
+                    <p class="" style="font-size: 20px; color: #212529;">
+                        I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and
+                        slick websites that provide real value to the end user. Thousands of clients have procured
+                        exceptional results while working with me. Delivering work within time and budget which meets
+                        client's requirements is our moto.
+                    </p>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="featured-box">
+                        <div class="featured-box-icon rounded-circle mx-auto d-flex justify-content-center align-items-center"
+                            style="background-color: #f5df4e; width: 120px; height: 120px; margin-bottom: 24px; font-size: 9rem; color: #4c4d4d; font-weight: 500;">
+                            <span class="">22</span>
                         </div>
+                        <h3 class="text-center" style="font-size: 1.75rem; margin-bottom: 10px;">
+                            Years of
+                            <span class="fw-bold">Experiance</span>
+                        </h3>
                     </div>
                 </div>
-                <div class="row gy-3 mt-4">
-                    <div class="col-6 col-lg-3">
-                        <p class="text-muted fw-500 mb-0">Name:</p>
-                        <p class="fw-700 text-5 mb-0 text-dark">Callum Smith</p>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <p class="text-muted fw-500 mb-0">Email:</p>
-                        <p class="fw-700 text-5 mb-0">
-                            <a href="#" class="link-dark">chat@callum.com</a>
+            </div>
+            <div class="row gy-3 mt-4">
+                <div class="col-6 col-lg-3">
+                    <p class="text-muted mb-0">Name:</p>
+                    <p class="text-dark fw-semibold mb-0" style="font-size: 1.12rem;">Callum Smith</p>
+                </div>
+                <div class="col-6 col-lg-3 px-2">
+                    <p class="text-muted mb-0">Email:</p>
+                    <a href="#" class="link-dark fw-semibold overflow-hidden"
+                        style="font-size: 1.12rem;">chat@callum.com</a>
+                </div>
+                <div class="col-6 col-lg-3 px-2">
+                    <p class="text-muted mb-0">Date of birth:</p>
+                    <p class="text-dark fw-semibold mb-0" style="font-size: 1.12rem;">11 November, 1987</p>
+                </div>
+                <div class="col-6 col-lg-3 px-2">
+                    <p class="text-muted mb-0">From:</p>
+                    <p class="text-dark fw-semibold mb-0" style="font-size: 1.12rem;">Los Angeles, USA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <section id="services" class="services bg-light" style="padding: 6.5rem 0;">
+        <div class="container">
+            <p class="text-center mb-2 ">
+                <span class="px-2" style="background-color: #f5df4e;">What I Do?</span>
+            </p>
+            <h2 class="text-center fw-semibold" style="font-size: 2.50rem;">How I can help your next project</h2>
+            <div class="row gy-5 mt-5">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="featured-box text-center px-md-4">
+                        <div class="featured-box-icon"
+                            style="margin-bottom: 0.8rem; font-size: 3.25rem; color: #f5df4e;">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="mb-3 fw-semibold" style="font-size: 1.50rem;">Graphic Design</h3>
+                        <p class="text-muted mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text.
                         </p>
                     </div>
-                    <div class="col-6 col-lg-3">
-                        <p class="text-muted fw-500 mb-0">Date of birth:</p>
-                        <p class="fw-700 text-5 mb-0 text-dark">11 November, 1987</p>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="featured-box text-center px-md-4">
+                        <div class="featured-box-icon"
+                            style="margin-bottom: 0.8rem; font-size: 3.25rem; color: #f5df4e;">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3 class="mb-3 fw-semibold" style="font-size: 1.50rem;">Web Design</h3>
+                        <p class="text-muted mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text.
+                        </p>
                     </div>
-                    <div class="col-6 col-lg-3">
-                        <p class="text-muted fw-400 mb-0">From:</p>
-                        <p class="fw-700 text-5 mb-0 text-dark">Los Angeles, USA.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="featured-box text-center px-md-4">
+                        <div class="featured-box-icon"
+                            style="margin-bottom: 0.8rem; font-size: 3.25rem; color: #f5df4e;">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3 class="mb-3 fw-semibold" style="font-size: 1.50rem;">Web Development</h3>
+                        <p class="text-muted mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="featured-box text-center px-md-4">
+                        <div class="featured-box-icon"
+                            style="margin-bottom: 0.8rem; font-size: 3.25rem; color: #f5df4e;">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="mb-3 fw-semibold" style="font-size: 1.50rem;">Brand Identity</h3>
+                        <p class="text-muted mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="featured-box text-center px-md-4">
+                        <div class="featured-box-icon"
+                            style="margin-bottom: 0.8rem; font-size: 3.25rem; color: #f5df4e;">
+                            <i class="fas fa-chart-area"></i>
+                        </div>
+                        <h3 class="mb-3 fw-semibold" style="font-size: 1.50rem;">Business Analysis</h3>
+                        <p class="text-muted mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="featured-box text-center px-md-4">
+                        <div class="featured-box-icon"
+                            style="margin-bottom: 0.8rem; font-size: 3.25rem; color: #f5df4e;">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3 class="mb-3 fw-semibold" style="font-size: 1.50rem;">Digital Marketing</h3>
+                        <p class="text-muted mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section bg-light">
-            <div class="container">
-                <p class="text-center mb-2">
-                    <span class="bg-warning px-2 text-dark">What I Do?</span>
-                </p>
-                <h2 class="text-center text-10 fw-600 ">How I can help your next project</h2>
-                <div class="row gy-1 mt-5">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="featured-box text-center px-md-4">
-                            <div class="featured-box-icon text-primary text-13">
-                                <i class="fas fa-palette" style="color: #f5df4e; min-height: 10px; min-width: 10px;"></i>
-                            </div>
-                            <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
-                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+
+    <section id="resume" class="resume" style="padding: 6.5rem 0;">
+        <div class="container">
+            <p class="text-center mb-2">
+                <span class="px-2" style="background-color: #f5df4e;">Resume</span>
+            </p>
+            <h2 class="fw-semibold text-center mb-5" style="font-size: 2.50rem;">A summary of My Resume</h2>
+            <div class="row g-5 mt-5">
+                <div class="col-lg-6">
+                    <h2 class="mb-4 pb-2 fw-semibold" style="font-size: 1.75rem;">My Education</h2>
+                    <div class="ps-3" style="border-left: 2px solid #f5df4e;">
+                        <h3 class="" style="font-size: 1.31rem;">Master in Computer Engineering</h3>
+                        <p class="mb-2">Harvard University / 2015 - 2017</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="" style="font-size: 1.31rem;">Bachelor in Computer Engineering</h3>
+                        <p class="mb-2">University of California / 2014 - 2015</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="" style="font-size: 1.31rem;">Computer Science</h3>
+                        <p class="mb-2">International University / 2013 - 2014</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="featured-box text-center px-md-4">
-                            <div class="featured-box-icon text-primary">
-                                <i class="fa-solid fa-display" style="color: #f5df4e;"></i>
-                            </div>
-                            <h3 class="text-6 fw-600 mb-3">Web Design</h3>
-                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="featured-box text-center px-md-4">
-                            <div class="featured-box-icon text-primary">
-                                <i class="fa-solid fa-pen-ruler" style="color: #f5df4e;"></i>
-                            </div>
-                            <h3 class="text-6 fw-600 mb-3">UI/UX Design</h3>
-                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="featured-box text-center px-md-4">
-                            <div class="featured-box-icon text-primary">
-                                <i class="fa-solid fa-paintbrush" style="color: #f5df4e;"></i>
-                            </div>
-                            <h3 class="text-6 fw-600 mb-3">App Design & Develop</h3>
-                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="featured-box text-center px-md-4">
-                            <div class="featured-box-icon text-primary">
-                                <i class="fa-solid fa-chart-area" style="color: #f5df4e;"></i>
-                            </div>
-                            <h3 class="text-6 fw-600 mb-3">Business Analysis</h3>
-                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="featured-box text-center px-md-4">
-                            <div class="featured-box-icon text-primary">
-                                <i class="fa-solid fa-bullhorn" style="color: #f5df4e;"></i>
-                            </div>
-                            <h3 class="text-6 fw-600 mb-3">SEO Marketing</h3>
-                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-4 pb-2 fw-semibold" style="font-size: 1.75rem;">My Experience</h2>
+                    <div class="ps-3" style="border-left: 2px solid #f5df4e;">
+                        <h3 class="" style="font-size: 1.31rem;">Sr. Font End Developer</h3>
+                        <p class="mb-2">Apple Inc / 2020 - Current</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="" style="font-size: 1.31rem;">Jr. Font End Developer</h3>
+                        <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="" style="font-size: 1.31rem;">HTML Developer</h3>
+                        <p class="mb-2">Adobe Inc / 2017 - 2018</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <p class="text-center mb-2">
-                    <span class="bg-warning px-2 text-dark">Resume</span>
-                </p>
-                <h2 class="text-10 fw-600 text-center mb-5">A summary of My Resume</h2>
-                <div class="row g-5 mt-5">
-                    <div class="col-lg-6">
-                        <h2 class="text-7 fw-600 pb-2 mb-4">My Education</h2>
-                        <div class="border-start border-warning border-2 ps-3">
-                            <div>
-                                <h3 class="text-5">Master in Computer Engineering</h3>
-                                <p class="mb-2">Harvard University / 2015 - 2017</p>
-                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-                                <hr class="my-4">
-                            </div>
-                            <div>
-                                <h3 class="text-5">Bachelor in Computer Engineering</h3>
-                                <p class="mb-2">University of California / 2014 - 2015</p>
-                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-                                <hr class="my-4">
-                            </div>
-                            <div>
-                                <h3 class="text-5">International Science</h3>
-                                <p class="mb-2">Harvard University / 2013 - 2014</p>
-                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-                                <hr class="my-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="text-7 fw-600 pb-2 mb-4">My Experience</h2>
-                        <div class="border-start border-warning border-2 ps-3">
-                            <div>
-                                <h3 class="text-5">Sr. Font End Developer</h3>
-                                <p class="mb-2">Apple Inc / 2020 - current</p>
-                                <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-                                <hr class="my-4">
-                            </div>
-                            <div>
-                                <h3 class="text-5">Jr. Font End Developer</h3>
-                                <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
-                                <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-                                <hr class="my-4">
-                            </div>
-                            <div>
-                                <h3 class="text-5">HTML Developer</h3>
-                                <p class="mb-2">Adobe Inc / 2017 - 2018</p>
-                                <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-                                <hr class="my-4">
-                            </div>
-                        </div>    
-                    </div>
-                </div>
-                <h2 class="text-4 fw-700 mb-2 pb-2 mt-5 text-dark">My Skills</h2>
-                <div class="row">
+            <div class="row g-5 mt-5">
+                <h2 class="fw-semibold mb-4 pb-2 mt-5" style="font-size: 1.75rem;">My Skills</h2>
+                <div class="row gx-5">
                     <div class="col-md-6">
-                        <p class="fw-600 mb-2">Web Design
+                        <p class="text-start mb-2" style="font-weight: 500;">
+                            Web Design
                             <span class="float-end">65%</span>
                         </p>
-                        <div class="progress mb-4"> 
-                            <div class="progress-bar" role="progressbar" style="width: 65%; background-color: #f5df4e;"></div>
+                        <div class="progress progress-sm mb-4" style="height: 0.5rem;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 65%; background-color: #f5df4e;"></div>
                         </div>
-                    </div>
-                    <div class="col-md-6 px-4">
-                        <p class="fw-600 mb-2">HTML/CSS
+                        <p class="text-start mb-2" style="font-weight: 500;">
+                            HTML/CSS
                             <span class="float-end">95%</span>
                         </p>
-                        <div class="progress mb-4"> 
-                            <div class="progress-bar" role="progressbar" style="width: 95%; background-color: #f5df4e;"></div>
+                        <div class="progress progress-sm mb-4" style="height: 0.5rem;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 95%; background-color: #f5df4e;"></div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="fw-600 mb-2">JavaScript
+                        <p class="text-start mb-2" style="font-weight: 500;">
+                            JavaScript
                             <span class="float-end">80%</span>
                         </p>
-                        <div class="progress mb-4"> 
-                            <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #f5df4e;"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 px-4">
-                        <p class="fw-600 mb-2">React JS
-                            <span class="float-end">70%</span>
-                        </p>
-                        <div class="progress mb-4"> 
-                            <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #f5df4e;"></div>
+                        <div class="progress progress-sm mb-4" style="height: 0.5rem;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 80%; background-color: #f5df4e;"></div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <p class="fw-600 mb-2">Angular Js
+                        <p class="text-start mb-2" style="font-weight: 500;">
+                            React JS
+                            <span class="float-end">70%</span>
+                        </p>
+                        <div class="progress progress-sm mb-4" style="height: 0.5rem;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 70%; background-color: #f5df4e;"></div>
+                        </div>
+                        <p class="text-start mb-2" style="font-weight: 500;">
+                            Angular Js
                             <span class="float-end">60%</span>
                         </p>
-                        <div class="progress mb-4"> 
-                            <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #f5df4e;"></div>
+                        <div class="progress progress-sm mb-4" style="height: 0.5rem;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 60%; background-color: #f5df4e;"></div>
                         </div>
-                    </div>
-                    <div class="col-md-6 px-4">
-                        <p class="fw-600 mb-2">Bootstrap
+                        <p class="text-start mb-2" style="font-weight: 500;">
+                            Bootstrap
                             <span class="float-end">99%</span>
                         </p>
-                        <div class="progress mb-4"> 
-                            <div class="progress-bar" role="progressbar" style="width: 99%; background-color: #f5df4e;"></div>
+                        <div class="progress progress-sm mb-4" style="height: 0.5rem;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 99%; background-color: #f5df4e;"></div>
                         </div>
                     </div>
                 </div>
                 <p class="text-center mt-5">
-                    <a href="#" class="btn btn-outline-dark rounded-0">Download CV</a>
+                    <a href="#" class="btn btn-outline-dark rounded-0" style="padding: 0.8rem 2.6rem;">Download CV</a>
                 </p>
             </div>
-        </section>
-        <section class="section bg-light" id="portfolio">
-            <div class="container">
-                <p class="text-center mb-2">
-                    <span class="text-dark bg-warning px-2">Portfolio</span>
-                </p>
-                <h2 class="text-center text-10 mb-5">Some of my most recent projects</h2>
-                <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-5" style="visibility: visible;">
-                    <li class="nav-item">
-                        <button class="nav-link text-dark">All</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link">Details</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link">Mockups</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link">Youtube Videos</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link">Vimeo Videos</button>
-                    </li>
-                </ul>
-                <div class="portfolio">
-                    <div class="row portfolio-filter filter-container g-4">
-                        <div class="col-sm-6 col-lg-4 filter-item DETAILED">
-                            <div class="portfolio-box">
-                                <div class="portfolio-img position-relative">
-                                    <img src="Asset/asset 2.jpeg" class="img-fluid d-block portfolio-image" alt="">
-                                    <div class="portfolio-overlay">
-                                        <button class="popup-ajax stretched-link border-0 p-0 "></button>
-                                        <div class="portfolio-overlay-details">
-                                            <p style="color: #f5df4e!important; font-size: 2rem!important;"><i class="fas fa-file-alt"></i></p>
-                                            <h5 class="text-white" style="font-size: 1.3125rem!important;">Detailed Project 1</h5>
-                                            <span class="text-light">Category</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 filter-item DETAILED">
-                            <div class="portfolio-box">
-                                <div class="portfolio-img position-relative">
-                                    <img src="Asset/asset 3.jpeg" class="img-fluid d-block portfolio-image" alt="">
-                                    <div class="portfolio-overlay">
-                                        <button class="popup-ajax stretched-link border-0 p-0 "></button>
-                                        <div class="portfolio-overlay-details">
-                                            <p style="color: #f5df4e!important; font-size: 2rem!important;"><i class="fas fa-image"></i></p>
-                                            <h5 class="text-white" style="font-size: 1.3125rem!important;">Mockups Design 1</h5>
-                                            <span class="text-light">Category</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 filter-item DETAILED">
-                            <div class="portfolio-box">
-                                <div class="portfolio-img position-relative">
-                                    <img src="Asset/asset 4.jpeg" class="img-fluid d-block portfolio-image" alt="">
-                                    <div class="portfolio-overlay">
-                                        <button class="popup-ajax stretched-link border-0 p-0 "></button>
-                                        <div class="portfolio-overlay-details">
-                                            <p style="color: #f5df4e!important; font-size: 2rem!important;"><i class="fas fa-video"></i></p>
-                                            <h5 class="text-white" style="font-size: 1.3125rem!important;">YouTube Video</h5>
-                                            <span class="text-light">Category</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 filter-item DETAILED">
-                            <div class="portfolio-box">
-                                <div class="portfolio-img position-relative">
-                                    <img src="Asset/asset 5.jpeg" class="img-fluid d-block portfolio-image" alt="">
-                                    <div class="portfolio-overlay">
-                                        <button class="popup-ajax stretched-link border-0 p-0 "></button>
-                                        <div class="portfolio-overlay-details">
-                                            <p style="color: #f5df4e!important; font-size: 2rem!important;"><i class="fas fa-video"></i></p>
-                                            <h5 class="text-white" style="font-size: 1.3125rem!important;">Vimeo Video</h5>
-                                            <span class="text-light">Category</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 filter-item DETAILED">
-                            <div class="portfolio-box">
-                                <div class="portfolio-img position-relative">
-                                    <img src="Asset/asset 6.jpeg" class="img-fluid d-block portfolio-image" alt="">
-                                    <div class="portfolio-overlay">
-                                        <button class="popup-ajax stretched-link border-0 p-0 "></button>
-                                        <div class="portfolio-overlay-details">
-                                            <p style="color: #f5df4e!important; font-size: 2rem!important;"><i class="fas fa-file-alt"></i></p>
-                                            <h5 class="text-white" style="font-size: 1.3125rem!important;">Detailed Project 2</h5>
-                                            <span class="text-light">Category</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 filter-item DETAILED">
-                            <div class="portfolio-box">
-                                <div class="portfolio-img position-relative">
-                                    <img src="Asset/asset 7.jpeg" class="img-fluid d-block portfolio-image" alt="">
-                                    <div class="portfolio-overlay">
-                                        <button class="popup-ajax stretched-link border-0 p-0 "></button>
-                                        <div class="portfolio-overlay-details">
-                                            <p style="color: #f5df4e!important; font-size: 2rem!important;"><i class="fas fa-image"></i></p>
-                                            <h5 class="text-white" style="font-size: 1.3125rem!important;">Mockups Design 2</h5>
-                                            <span class="text-light">Category</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="hero-wrap">
-                <div class="hero-mask" style="background-color: #111418!important; opacity: 0.8;">
-                    <div class="react-parallax" style="position: relative; overflow: hidden;">
-                        <div class="react-parallax-content" style="position: relative;">
-                            <div class="hero-content section">
-                                <div class="container text-center py-5" style="visibility: visible;">
-                                    <h2 class="text-white mb-5" style="font-size: 2.5rem!important;">Interested in working with me?</h2>
-                                    <a href="#" class="btn rounded-0 smooth-scroll rubberBand">Hire Me!</a>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section bg-light">
-            <div class="container">
-                <div class="row gy-5">
-                    <div class="col-lg-6">
-                        <p class="mb-2 text-lg-start">
-                            <span class="bg-warning px-2">FAQ</span>
-                        </p>
-                        <h2 class="text-10 fw-600">Have any questions?</h2>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item border-0 border-bottom" style="border-color: rgb(203, 203, 203)!important;">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button text-muted bg-light collapsed ps-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                        What is Callum?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse bg-light" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="padding-left: 40px !important;">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item border-0 border-bottom" style="border-color: rgb(203, 203, 203)!important;">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button text-muted bg-light collapsed ps-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        How Can I Help You?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse bg-light" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="padding-left: 40px !important;">Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item border-0 border-bottom" style="border-color: rgb(203, 203, 203)!important;">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button text-muted bg-light collapsed ps-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                        Simple process for workflow?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse bg-light" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="padding-left: 40px !important;">Iisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item border-0 border-bottom" style="border-color: rgb(203, 203, 203)!important;">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button text-muted bg-light collapsed ps-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                        Is Callum a Multi-purpose template?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse bg-light" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="padding-left: 40px !important;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item border-0 border-bottom" style="border-color: rgb(203, 203, 203)!important;">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button text-muted bg-light collapsed ps-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                        Why responsive one page template?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse bg-light" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="padding-left: 40px !important;">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 d-flex align-items-center justify-content-center order-0 order-lg-1">
-                        <img src="asset/asset 9.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section bg-secondary">
-            <div class="container">
-                <p class="text-center mb-2">
-                    <span class="bg-warning text-dark px-2">Client Speak</span>
-                </p>
-                <h2 class="text-10 fw-600 text-white text-center mb-5">What Some of my Clients Say</h2>
-                <div class="row">
-                    <div class="col-lg-9 mx-auto">
-                        <div class="text-center px-5">
-                            <p class="text-white pt-3">“Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure. simply dummy text of the printing and typesetting industry.”</p>
-                            <img src="Asset/asset 11.jpeg" alt="" class="img-fluid d-inline-block w-auto rounded-circle mb-1">
-                            <strong class="d-block text-white">Jay Shah</strong>
-                            <span class="text-light" style="font-weight: 600; opacity: 0.7;">Founder at Icomatic Pvt Ltd</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section bg-warning">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 text-center text-lg-start">
-                        <h2 class="mb-5">Let's get in touch</h2>
-                        <p class="mb-5" style="font-size: 21px; font-weight: 450; line-height: 35px;">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
-                        <h3>Living In:</h3>
-                        <address style="font-size: large;">30 Shacham street, Los Angeles, USA.</address>
-                        <h3>Call:</h3>
-                        <p style="font-size: 1.15rem!important;">(+060) 444 434 444</p>
-                        <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-dribbble"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp">
-                        <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Estimate your Project?</h2>
-                        <form id="contact-form" class="form-border" method="post">
-                            <div class="row g-4">
-                                <div class="col-12">
-                                    <label for="name" class="form-label">What is Your Name:</label>
-                                    <input type="text" id="name" name="user_name" class="form-control py-1" required>
-                                </div>
-                                <div class="col-12">
-                                    <label for="name" class="form-label">What is Your Name:</label>
-                                    <input type="text" id="name" name="user_name" class="form-control py-1" required>
-                                </div>
-                                <div class="col-12">
-                                    <label for="Email" class="form-label">Your Email Address:</label>
-                                    <input type="email" id="email" name="user_email" class="form-control py-1" required>
-                                </div>
-                                <div class="col-12">
-                                    <label for="form-massage" class="form-label">How can I Help you?:</label>
-                                    <textarea name="message" rows="4" class="form-control py-1"></textarea>
-                                </div>
-                                <div class="col-12 text-center text-lg-start">
-                                    <button class="btn btn-dark rounded-0" type="submit">Send
-                                        <span class="ms-3">
-                                            <i class="fas fa-arrow-right"></i>
-                                        </span>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    <div>    
-                </div>
-            </div>
-        </section>
-    </div>
+        </div>
+    </section>
 
+    <!-- Portfolio -->
+    <section id="Portfolio" class="portfolio bg-light" style="padding: 6.5rem 0;">
+        <div class="container">
+            <p class="text-center mb-2">
+                <span class="px-2" style="background-color: #f5df4e;">Portfolio</span>
+            </p>
+            <h2 class="fw-semibold text-center mb-5" style="font-size: 2.50rem;">Some of my most recent projects</h2>
+            <ul
+                class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4">
+                <li class="nav-item">
+                    <a href="" class="nav-link bg-transparent fw-semibold"
+                        style="padding: 0.6rem 1rem; color: #212529; border-bottom: 3px solid #f5df4e;">All</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link fw-semibold" style="color: #000b0066;">Detailed</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link fw-semibold" style="color: #000b0066;">Mockups</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link fw-semibold" style="color: #000b0066;">YouTube Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link fw-semibold" style="color: #000b0066;">Vimeo Videos</a>
+                </li>
+            </ul>
+            <div class="">
+                <div class="row g-4 mt-3 portfolio-filter">
+                    <div class="col-sm-6 col-lg-4 detailed">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="assets/asset 2.jpeg" alt="" class="img-fluid d-block">
+                                <!-- <div class="portfolio-overlay text-center">
+                                    <div class="portfolio-overlay-details" style="width: 100%; margin: auto 0;">
+                                        <p style="font-size: 2rem; color: #f5df4e;">
+                                            <i class="fas fa-file-alt"></i>
+                                        </p>
+                                        <h5 class="text-white" style="font-size: 1.31rem;">Detailed Project 1</h5>
+                                        <span class="text-light">Category</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mockups">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="assets/asset 3.jpeg" alt="" class="img-fluid d-block">
+                                <!-- <div class="portfolio-overlay text-center">
+                                    <div class="portfolio-overlay-details" style="width: 100%; margin: auto 0;">
+                                        <p style="font-size: 2rem; color: #f5df4e;">
+                                            <i class="fas fa-file-alt"></i>
+                                        </p>
+                                        <h5 class="text-white" style="font-size: 1.31rem;">Detailed Project 1</h5>
+                                        <span class="text-light">Category</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 detailed">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="assets/asset 4.jpeg" alt="" class="img-fluid d-block">
+                                <!-- <div class="portfolio-overlay text-center">
+                                    <div class="portfolio-overlay-details" style="width: 100%; margin: auto 0;">
+                                        <p style="font-size: 2rem; color: #f5df4e;">
+                                            <i class="fas fa-file-alt"></i>
+                                        </p>
+                                        <h5 class="text-white" style="font-size: 1.31rem;">Detailed Project 1</h5>
+                                        <span class="text-light">Category</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 detailed">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="assets/asset 5.jpeg" alt="" class="img-fluid d-block">
+                                <!-- <div class="portfolio-overlay text-center">
+                                    <div class="portfolio-overlay-details" style="width: 100%; margin: auto 0;">
+                                        <p style="font-size: 2rem; color: #f5df4e;">
+                                            <i class="fas fa-file-alt"></i>
+                                        </p>
+                                        <h5 class="text-white" style="font-size: 1.31rem;">Detailed Project 1</h5>
+                                        <span class="text-light">Category</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 detailed">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="assets/asset 6.jpeg" alt="" class="img-fluid d-block">
+                                <!-- <div class="portfolio-overlay text-center">
+                                    <div class="portfolio-overlay-details" style="width: 100%; margin: auto 0;">
+                                        <p style="font-size: 2rem; color: #f5df4e;">
+                                            <i class="fas fa-file-alt"></i>
+                                        </p>
+                                        <h5 class="text-white" style="font-size: 1.31rem;">Detailed Project 1</h5>
+                                        <span class="text-light">Category</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 detailed">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="assets/asset 7.jpeg" alt="" class="img-fluid d-block">
+                                <!-- <div class="portfolio-overlay text-center">
+                                    <div class="portfolio-overlay-details" style="width: 100%; margin: auto 0;">
+                                        <p style="font-size: 2rem; color: #f5df4e;">
+                                            <i class="fas fa-file-alt"></i>
+                                        </p>
+                                        <h5 class="text-white" style="font-size: 1.31rem;">Detailed Project 1</h5>
+                                        <span class="text-light">Category</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer class="section bg-dark text-white">
+    <!-- Call to Action -->
+    <section>
+        <div class="hero-wrap" style="position: relative; overflow: hidden;">
+            <div class="hero-mask opacity-8">
+            </div>
+            <div class="hero-bg parallax">
+                <div class="hero-content section"
+                    style="position: relative; padding: 6.5rem 0; background-color: #111418; opacity: 0.8;">
+                    <div class="container text-center py-5">
+                        <h2 class="fw-semibold text-white mb-5" style="font-size: 2.50rem;">Interested in working with
+                            me?</h2>
+                        <a href="#" class="btn rounded-0 smooth-scroll wow rubberBand"
+                            style="background-color: #f5df4e;">Hire Me!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faq -->
+
+    <section id="faq" class="bg-light" style="padding: 6.5rem 0;">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-lg-6 order-1 order-lg-0">
+                    <p class="text-center text-lg-start mb-2">
+                        <span class="px-2" style="background-color: #f5df4e;">FAQ</span>
+                    </p>
+                    <h2 class="fw-semibold text-center text-lg-start mb-5" style="font-size: 2.50rem;">Have any
+                        questions?</h2>
+                    <div class="accordion bg-transparent" id="accordionExample">
+                        <div class="accordion-item bg-transparent border-0">
+                            <h2 class="accordion-header bg-transparent">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is Callum?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show border-0"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                                        possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna
+                                        imperdiet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-0">
+                            <h2 class="accordion-header bg-transparent">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How Can I Help You?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse border-0"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                        assumenda shoreditch et.</p>
+                                    <p class="mb-0">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                        nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-0">
+                            <h2 class="accordion-header bg-transparent">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Simple process of workflow?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse border-0"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Iisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                                        possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna
+                                        imperdiet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-0">
+                            <h2 class="accordion-header bg-transparent">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Is Callum a Multi-purpose template?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse border-0"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Food
+                                        truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                                        put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                                        anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                        ea proident.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-0">
+                            <h2 class="accordion-header bg-transparent">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Why responsive one page template?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse border-0"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                                        lomo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-center order-0 order-lg-1">
+                    <img src="assets/asset 8.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+
+    <section id="testimonial" class="testimonial" style="padding: 6.5rem 0; background-color: #939597;">
+        <div class="container">
+            <p class="text-center mb-2">
+                <span class="px-2" style="background-color: #f5df4e;">Client Speak</span>
+            </p>
+            <h2 class="fw-semibold text-white text-center mb-5 wow fadeIn" style="font-size: 2.50rem;">What Some of my
+                Clients Say</h2>
+            <!-- carousel -->
+            <div class="" style="margin-top: 100px;">
+                <div class="col-lg-9 mx-auto">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner mt-5">
+                            <div class="carousel-item active">
+                                <div class="item text-center px-5">
+                                    <p class="text-white" style="font-size: 1.31rem;">
+                                        “Only trying it out since a few days. But up to now excellent. Seems to work
+                                        flawlessly. priced simply dummy text of the printing and typesetting industry.”
+                                    </p>
+                                    <img src="assets/asset 9.jpeg" alt=""
+                                        class="img-fluid d-inline-block w-auto rounded-circle shadow">
+                                    <strong class="d-block fw-semibold text-white" style="font-size: 1rem;">Dennis
+                                        Jacques</strong>
+                                    <span class="text-light">Noon Inc</span>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="item text-center px-5">
+                                    <p class="text-white" style="font-size: 1.31rem;">
+                                        “I have used them twice now. Good rates, very efficient service and priced
+                                        simply dummy text of the printing and typesetting industry quidam interesset his
+                                        et. simply dummy text of the printing and typesetting industry. Excellent.”
+                                    </p>
+                                    <img src="assets/asset 10.jpeg" alt=""
+                                        class="img-fluid d-inline-block w-auto rounded-circle shadow">
+                                    <strong class="d-block fw-semibold text-white" style="font-size: 1rem;">Chris
+                                        Tom</strong>
+                                    <span class="text-light">Company CEO from UK</span>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="item text-center px-5">
+                                    <p class="text-white" style="font-size: 1.31rem;">
+                                        “Easy to use, reasonably priced simply dummy text of the printing and
+                                        typesetting industry. Quidam lisque persius interesset his et, in quot quidam
+                                        possim iriure. simply dummy text of the printing and typesetting industry.”
+                                    </p>
+                                    <img src="assets/asset 11.jpeg" alt=""
+                                        class="img-fluid d-inline-block w-auto rounded-circle shadow">
+                                    <strong class="d-block fw-semibold text-white" style="font-size: 1rem;">Jay
+                                        Shah</strong>
+                                    <span class="text-light">Founder at Icomatic Pvt Ltd</span>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="item text-center px-5">
+                                    <p class="text-white" style="font-size: 1.31rem;">
+                                        “I am happy Working with printing and typesetting industry. Quidam lisque
+                                        persius interesset his et, in quot quidam persequeris essent possim iriure.
+                                        simply dummy text of the printing and typesetting industry.”
+                                    </p>
+                                    <img src="assets/asset 12.jpeg" alt=""
+                                        class="img-fluid d-inline-block w-auto rounded-circle shadow">
+                                    <strong class="d-block fw-semibold text-white" style="font-size: 1rem;">Patrick
+                                        Cary</strong>
+                                    <span class="text-light">Freelancer from USA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me -->
+
+    <section id="contact" class="contact" style="padding: 6.5rem 0; background-color: #f5df4e;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center text-lg-start ">
-                    <p class="mb-1">Copyright © 2023
-                        <a href="#" class="fw-700">Callum</a>
-                        . All Rights Reserved.
+                <div class="col-lg-5 text-center text-lg-start">
+                    <h2 class="fw-semibold mb-5" style="font-size: 2.50rem;">Let's get in touch</h2>
+                    <p class="mb-5" style="font-size: 1.31rem;">I enjoy discussing new projects and design challenges.
+                        Please share as much info, as possible so we can get the most out of our first catch-up.</p>
+                    <h3 class="fw-semibold" style="font-size: 1.31rem;">Living In:</h3>
+                    <address style="font-size: 1.13rem; margin-bottom: 1rem;">30 Shacham street, Los Angeles, USA.
+                    </address>
+                    <h3 class="fw-semibold" style="font-size: 1.31rem;">Call:</h3>
+                    <p style="font-size: 1.13rem;">(+060) 444 434 444</p>
+                    <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start d-flex mt-5 p-0"
+                        style="list-style-type: none;">
+                        <li class="social-icons-twitter" style="margin: 2px 6px;">
+                            <a href="" style="font-size: 26px; color: #4d555a;"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="social-icons-facebook" style="margin: 2px 6px;">
+                            <a href="" style="font-size: 26px; color: #4d555a;"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="social-icons-instagram" style="margin: 2px 6px;">
+                            <a href="" style="font-size: 26px; color: #4d555a;"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="social-icons-github" style="margin: 2px 6px;">
+                            <a href="" style="font-size: 26px; color: #4d555a;"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li class="social-icons-dribbble" style="margin: 2px 6px;">
+                            <a href="" style="font-size: 26px; color: #4d555a;"><i class="fab fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 ms-auto mt-5 mt-lg-0">
+                    <h2 class="fw-semibold text-center text-lg-start mb-5" style="font-size: 2.50rem;">Estimate your
+                        Project?</h2>
+                    <form id="contact-form" action="">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <label for="name" class="form-label" style="margin-bottom: .5rem; font-size: 1rem;">What
+                                    is Your Name:</label>
+                                <input type="text" id="name" name="name"
+                                    class="form-control py-1 bg-transparent border-top-0 border-start-0 border-end-0 rounded-0"
+                                    style="border-bottom: 2px solid #0000001f;">
+                            </div>
+                            <div class="col-12">
+                                <label for="email" class="form-label"
+                                    style="margin-bottom: .5rem; font-size: 1rem;">Your Email Address:</label>
+                                <input type="email" id="email" name="email"
+                                    class="form-control py-1 bg-transparent border-top-0 border-start-0 border-end-0 rounded-0"
+                                    style="border-bottom: 2px solid #0000001f;">
+                            </div>
+                            <div class="col-12">
+                                <label for="form-message" class="form-label"
+                                    style="margin-bottom: .5rem; font-size: 1rem;">How can I Help you?:</label>
+                                <textarea name="form-message" id="form-message"
+                                    class="form-control py-1 bg-transparent border-top-0 border-start-0 border-end-0 rounded-0"
+                                    rows="4" style="border-bottom: 2px solid #0000001f;"></textarea>
+                            </div>
+                            <div class="col-12 text-center text-lg-start">
+                                <button id="submit-btn" class="btn btn-dark rounded-0" style="padding: 0.8rem 2.6rem;">
+                                    Send
+                                    <span class="ms-3">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="section bg-dark text-white" style="padding: 4.13rem 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <p class="mb-2 mb-lg-0">
+                        Copyright © 2021
+                        <a href="" style="color: #f5df4e;">Callum.</a>
+                        All Rights Reserved.
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <p class="mb-0 text-center text-lg-end">Designed by
-                        <a href="#" class="fw-700">Harnish Design</a>
+                    <p class="mb-0 text-center text-lg-end">
+                        Designed by
+                        <a href="" style="color: #f5df4e;">Harnish Design</a>
                     </p>
                 </div>
             </div>
@@ -655,8 +849,8 @@
 
 
 
-
+    <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-      
 </body>
+
 </html>
