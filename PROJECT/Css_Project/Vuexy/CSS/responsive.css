@@ -1,9 +1,0 @@
-@media (max-width:576px) {
-    .aside{
-        display: none;
-    }
-    .main-div2{
-        position: absolute;
-        top: 200px;
-    }
-}
